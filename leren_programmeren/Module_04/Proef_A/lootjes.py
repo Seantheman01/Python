@@ -28,7 +28,7 @@ while True:
     else:
         random_naam += 1
 
-    if random_naam == len(namen):
+    if random_naam >= 3:
         break
 
 for x in namen:
