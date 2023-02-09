@@ -15,11 +15,10 @@ while True:
     else:
         print("Die naam is er al!")
         
-    naam_toevoegen = input("Wil je nog een naam toevoegen? Typ ja of nee: ")
-    if naam_toevoegen == 'nee' and teller <=2:
-        print("Je moet meer namen toevoegen!")
-    elif naam_toevoegen == 'nee' and teller >=3:
-        break
+    if len(namen) >= 3: 
+        naam_toevoegen = input("Wil je nog een naam toevoegen? Typ ja of nee: ")
+        if naam_toevoegen == 'nee':
+            break
 
 while True:
     if namen[random_naam] == lootjes[random_naam]:
@@ -28,7 +27,7 @@ while True:
     else:
         random_naam += 1
 
-    if random_naam >= 3:
+    if random_naam >= len(namen):
         break
 
 for x in namen:
