@@ -9,7 +9,7 @@ while True:
         namen.append(naam_invullen)
         teller += 1
     else:
-        print("Je hebt die naam al!")
+        print("Die naam is er al!")
         
     naam_toevoegen = input("Wil je nog een naam toevoegen? Typ ja of nee: ")
     if naam_toevoegen == 'nee' and teller <=2:
