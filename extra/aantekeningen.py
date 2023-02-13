@@ -47,7 +47,7 @@
 #   for a in woord:
 #        print(a)
 
-# bij een tupl kan je niets toevoegen, bij een list wel
+# een tuple kan je niet wijzigen, een list wel
 
 # tupl = ()
 # list = []
