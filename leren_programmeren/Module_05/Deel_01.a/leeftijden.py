@@ -1,4 +1,4 @@
-def mijn_functie(leeftijd: int):
+def mijn_functie(x: int):
     input("Typ een naam in: ")
     input("Typ een leeftijd in: ")
     
