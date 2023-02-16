@@ -9,6 +9,6 @@ def mijn_functie(x: int):
         leeftijd = int(input("Typ een leeftijd in: "))
         mijn_lijst.append(leeftijd)
         
-    print(naam + "is" + leeftijd + "jaar")
+    # print(naam + "is" + leeftijd + "jaar")
 
 print(mijn_functie(mijn_functie))
