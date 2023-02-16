@@ -1,5 +1,6 @@
-def mijn_functie(x: int):
-    input("Typ een naam in: ")
-    int(input("Typ een leeftijd in: "))
+def mijn_functie(naam, leeftijd):
+    naam = input("Typ een naam in: ")
+    leeftijd = int(input("Typ een leeftijd in: "))
+    print(naam + "is" + leeftijd + "jaar")
     
-mijn_functie(mijn_functie)
+print(mijn_functie(mijn_functie))
