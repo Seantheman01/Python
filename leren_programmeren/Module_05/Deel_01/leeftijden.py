@@ -11,6 +11,6 @@ def mijn_functie(y):
             print(naa = "is" + leeftijd + "jaar")
 
 while True:
-      
+    
     
     mijn_functie()
