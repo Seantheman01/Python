@@ -10,7 +10,5 @@ def mijn_functie(x):
         if verder != 'stop':
             print(x)
 
-# while True:
+while True:
     
-        
-#     print(mijn_functie())
