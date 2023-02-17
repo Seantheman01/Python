@@ -12,5 +12,5 @@ def mijn_functie(y):
 
 while True:
     
-    
+        
     mijn_functie()
