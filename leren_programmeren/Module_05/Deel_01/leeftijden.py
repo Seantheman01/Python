@@ -1,7 +1,7 @@
 naam_lijst = []
 leeftijd_lijst= []
 
-def mijn_functie(y):
+def mijn_functie(x: int):
         naam = input("Typ een naam in: ")
         naam_lijst.append(naam)
         leeftijd = int(input("Typ een leeftijd in: "))
