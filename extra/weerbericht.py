@@ -5,5 +5,7 @@ url = 'https://api.openweathermap.org/data/2.5/weather?q=Dordrecht&appid=' + APP
 response = requests.get(url)
 
 json_response = response.json()
-print(type(json_response))
-print(json_response)
+# print(type(json_response))
+# print(json_response)
+
+weer = json_response
