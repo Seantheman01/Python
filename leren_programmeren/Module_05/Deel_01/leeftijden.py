@@ -8,7 +8,7 @@ def mijn_functie(x: int):
         leeftijd_lijst.append(leeftijd)
         verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
         if verder != 'stop':
-            print(naa = "is" + leeftijd + "jaar")
+            print(naam = "is" + leeftijd + "jaar")
 
 while True:
     
