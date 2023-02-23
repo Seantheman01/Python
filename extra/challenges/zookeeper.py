@@ -4,11 +4,11 @@ def mijn_functie():
     struisvogels_aantal = int(input("Hoeveel struisvogels zijn er? "))
     zebras_aantal = int(input("Hoeveel zebra's zijn er? "))
 
-    giraf_poten = 4
-    struisvogel_poten = 2
-    zebra_poten = 4
+    GIRAF_POTEN = 4
+    STRUISVOGEL_POTEN = 2
+    ZEBRA_POTEN = 4
     
-    som = (giraffen_aantal * giraf_poten) + (struisvogels_aantal * struisvogel_poten) + (zebras_aantal * zebra_poten)
+    som = (giraffen_aantal * GIRAF_POTEN) + (struisvogels_aantal * STRUISVOGEL_POTEN) + (zebras_aantal * ZEBRA_POTEN)
     return(som)
 
 print(f"Er zijn {mijn_functie()} poten.")
