@@ -18,4 +18,10 @@ def mijn_functie(tekst):
         elif character == ']':
             binnen_haakjes = False
             
-print(tussen_haakjes)
+    return tussen_haakjes
+            
+print(mijn_functie())
+# print(mijn_functie("/////////////////////////////")) dit kan
+# print(mijn_functie("/////////////////////////////" + "|||")) dit kan ook
+# print(mijn_functie(tekst + "|||")) en dit ook
+# print(mijn_functie(tekst)) dit kan niet

@@ -15,6 +15,6 @@ def mijn_functie(giraffen, struisvogels, zebras):
     return aantal_poten
 
 print(mijn_functie())
-# print(mijn_functie(5,3,2)) dit mag
-# print(mijn_functie(5,3,zebra_aantal)) dit mag ook
+# print(mijn_functie(5,3,2)) dit kan
+# print(mijn_functie(5,3,zebra_aantal)) dit kan ook
 # print(giraf_aantal, struisvogel_aantal, zebra_aantal)) en dit ook
