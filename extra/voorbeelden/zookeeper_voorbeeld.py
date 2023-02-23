@@ -12,7 +12,7 @@ ZEBRA_POTEN = 4
 
 def mijn_functie(giraffen, struisvogels, zebras):
     aantal_poten = giraf_aantal * GIRAF_POTEN + struisvogel_aantal * STRUISVOGEL_POTEN + zebra_aantal * ZEBRA_POTEN
-    return(aantal_poten)
+    return aantal_poten
 
 print(mijn_functie())
 # print(mijn_functie(5,3,2)) dit mag
