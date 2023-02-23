@@ -1,4 +1,3 @@
-# opdracht 1:
 giraf_aantal = int(input("Hoeveel giraffen zijn er? "))
 struisvogel_aantal = int(input("Hoeveel struisvogels zijn er? "))
 zebra_aantal = int(input("Hoeveel zebra's zijn er? "))
