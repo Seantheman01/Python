@@ -8,7 +8,7 @@ def mijn_functie():
     STRUISVOGEL_POTEN = 2
     ZEBRA_POTEN = 4
     
-    som = (giraffen_aantal * GIRAF_POTEN) + (struisvogels_aantal * STRUISVOGEL_POTEN) + (zebras_aantal * ZEBRA_POTEN)
-    return(som)
+    aantal_poten = giraffen_aantal * GIRAF_POTEN + struisvogels_aantal * STRUISVOGEL_POTEN + zebras_aantal * ZEBRA_POTEN
+    return(aantal_poten)
 
 print(f"Er zijn {mijn_functie()} poten.")

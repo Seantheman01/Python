@@ -75,3 +75,5 @@
 # naam      input parm      output
 
 # met een return kan je data opslaan
+
+# een globale variabele zit in de function
