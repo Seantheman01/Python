@@ -43,3 +43,5 @@ for character in tekst:
         binnen_haakjes = True
     elif character == ']':
         binnen_haakjes = False
+        
+print(tussen_haakjes)
