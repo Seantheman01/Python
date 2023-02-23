@@ -33,8 +33,11 @@ chips en iemand die "Een beetje verliefd" speel[t] op een a[c]cordeon ' en je zi
 op Schip[h]ol voor je vijfdaagse vliegvakantie met niks anders te eten dan uitgedroogde
 voorverpakte boterhammen..."""
 
-haakjes = ''
+tussen_haakjes = ''
+binnen_haakjes = False
 
 for character in tekst:
-    print(character)
-    
+    if character == '[':
+        binnen_haakjes = True
+    elif character == ']':
+        binnen_haakjes = False
