@@ -10,4 +10,4 @@ def mijn_functie():
     som = (giraffen_aantal * giraf_poten) + (struisvogels_aantal * struisvogel_poten) + (zebras_aantal * zebra_poten)
     return(som)
 
-print(mijn_functie())
+print(f"Er zijn {mijn_functie()} poten.")
