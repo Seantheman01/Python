@@ -6,7 +6,7 @@ chips en iemand die "Een beetje verliefd" speel[t] op een a[c]cordeon ' en je zi
 op Schip[h]ol voor je vijfdaagse vliegvakantie met niks anders te eten dan uitgedroogde
 voorverpakte boterhammen..."""
 
-def mijn_functie():
+def mijn_functie(tekst):
     tussen_haakjes = ''
     binnen_haakjes = False
 
@@ -18,4 +18,4 @@ def mijn_functie():
         elif character == ']':
             binnen_haakjes = False
             
-    print(tussen_haakjes)
+print(tussen_haakjes)
