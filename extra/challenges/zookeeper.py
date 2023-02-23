@@ -1,3 +1,4 @@
+# opdracht 1:
 def mijn_functie():
     giraffen_aantal = int(input("Hoeveel giraffen zijn er? "))
     struisvogels_aantal = int(input("Hoeveel struisvogels zijn er? "))
