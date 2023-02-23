@@ -1,10 +1,10 @@
-giraf_aantal = 1
-struisvogel_aantal = 1
-zebra_aantal = 1
+giraf_aantal = int(input("Hoeveel giraffen zijn er? "))
+struisvogel_aantal = int(input("Hoeveel struisvogels zijn er? "))
+zebra_aantal = int(input("Hoeveel zebra's zijn er? "))
 
-# giraf_aantal = int(input("Hoeveel giraffen zijn er? "))
-# struisvogel_aantal = int(input("Hoeveel struisvogels zijn er? "))
-# zebra_aantal = int(input("Hoeveel zebra's zijn er? "))
+# giraf_aantal = 1
+# struisvogel_aantal = 1
+# zebra_aantal = 1
 
 GIRAF_POTEN = 4
 STRUISVOGEL_POTEN = 2
