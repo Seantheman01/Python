@@ -37,7 +37,9 @@ tussen_haakjes = ''
 binnen_haakjes = False
 
 for character in tekst:
-    if character == '[':
+    if binnen_haakjes and character != ']':
+        tussen_haakjes += character
+    elif character == '[':
         binnen_haakjes = True
     elif character == ']':
         binnen_haakjes = False
