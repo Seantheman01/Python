@@ -1,6 +1,7 @@
 def mijn_functie():
     
     aantal_spellen = int(input("Hoeveel spellen wilt u? "))
+    
     SPELLETJE = 24.95
     korting = 0.4
     leveren = 1
