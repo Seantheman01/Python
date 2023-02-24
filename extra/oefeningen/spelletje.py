@@ -13,4 +13,4 @@ def mijn_functie():
     
     return som
 
-print(mijn_functie())
+print(f"Het kost €{mijn_functie()}.")
