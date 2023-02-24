@@ -3,15 +3,16 @@ def mijn_functie():
     aantal_spellen = int(input("Hoeveel spellen wilt u? "))
     
     PRIJS_SPELLETJE = 24.95
-    korting = 0.4
-    leveren = 1
+    KORTING = 0.4
     extra = aantal_spellen * 0.25
     
     if aantal_spellen <2:
-        som = aantal_spellen * PRIJS_SPELLETJE * korting + leveren
+        som = PRIJS_SPELLETJE * (1 - KORTING)
+        totaal = aantal_spellen * som
     else:
-        som = aantal_spellen * PRIJS_SPELLETJE * korting + leveren + extra
-    
-    return som
+        som = PRIJS_SPELLETJE * (1 - KORTING) + extra
+        totaal = aantal_spellen * som
+        
+    return totaal
 
 print(f"Het kost €{mijn_functie()}.")
