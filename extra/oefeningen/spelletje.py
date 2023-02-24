@@ -9,7 +9,7 @@ def mijn_functie():
     
     if aantal_spellen <2:
         som = aantal_spellen * PRIJS_SPELLETJE * korting + leveren
-    elif aantal_spellen >=2:
+    else:
         som = aantal_spellen * PRIJS_SPELLETJE * korting + leveren + extra
     
     return som
