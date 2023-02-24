@@ -4,7 +4,7 @@ def mijn_functie():
     SPELLETJE = 24.95
     korting = 0.4
     leveren = 1
-    extra = 0.25    
+    extra = aantal_spellen * 0.25
     
     if aantal_spellen <2:
         som = aantal_spellen * SPELLETJE * korting + leveren
