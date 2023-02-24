@@ -2,7 +2,7 @@ aantal_spellen = int(input("Hoeveel spellen wilt u? "))
 
 PRIJS_SPELLETJE = 24.95
 KORTING = 0.4
-extra = aantal_spellen * 0.25
+
 def mijn_functie():    
     
     som = PRIJS_SPELLETJE * (1 - KORTING)
