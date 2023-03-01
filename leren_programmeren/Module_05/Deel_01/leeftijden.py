@@ -10,8 +10,8 @@ def mijn_functie():
             
             verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
             if verder != 'stop':
-                print(naam_lijst)
-                print(leeftijd_lijst)
                 break
+    print(naam_lijst)
+    print(leeftijd_lijst)
             
 print(mijn_functie())
