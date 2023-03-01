@@ -9,9 +9,8 @@ def mijn_functie():
             leeftijd_lijst.append(leeftijd)
             
             verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
-            if verder != 'stop':
+            if verder == 'stop':
                 break
-    print(naam_lijst)
-    print(leeftijd_lijst)
+    print(naam_lijst + leeftijd_lijst)
             
-print(mijn_functie())
+mijn_functie()
