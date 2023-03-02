@@ -11,6 +11,7 @@ def mijn_functie():
             verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
             if verder == 'stop':
                 break
+            
     print(naam_lijst + leeftijd_lijst)
             
 mijn_functie()
