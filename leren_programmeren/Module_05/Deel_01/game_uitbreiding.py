@@ -113,8 +113,8 @@ You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """
-soldaten = [20]
-geld = [100]
+soldaten = 20
+geld = 100
 naam = input("""Before we start, what is your name? """)
 intro = input(f"""
 Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. One of the first paths is harder than the other.
@@ -144,12 +144,13 @@ Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
             elif spullen == 'steal':
                 elf_winkel =  input(ELF_WINKEL_PAD)
+                soldaten - 5
                 if elf_winkel == 'continue':
                     pad2 = input(PAD2_VRAAG)
                     if pad2 == 'swim':
                         print("""
 You all take of your armor and try to swim across.
-But the water is flowing too fast, and you all get taken bty the water.
+But the water is flowing too fast, and you all get taken by the water.
 Swimming also started to get really difficult, so you all drown.
 GAME OVER""")
                     elif pad2 == 'log':
