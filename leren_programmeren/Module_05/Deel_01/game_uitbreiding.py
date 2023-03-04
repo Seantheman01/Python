@@ -157,7 +157,8 @@ GAME OVER""")
                         if grot == 'blocked':
                             print("""
 You enter a dark and narrow cave system.
-You all get lost and after walking around witch no succes, you all fall in a pit.
+You all get lost and after walking around witch no succes.
+Suddenly you all fall in a pit.
 GAME OVER""")
                         elif grot == 'mine':
                             troll = input(TROLL_VRAAG)
@@ -247,7 +248,7 @@ GAME OVER""")
                     bewakers = input(BEWAKERS_VRAAG2) 
                     if bewakers == 'ask':
                         kasteel = print("""
-One of the guards sais: 'Listen up! If you have something to give us, we will let you in.
+One of the guards sais: 'Listen up! If you have something to give us, we will let you in.'
 You ask them what they want, and they say that they want money. You give them the money and supplies.
 You give all the money and supplies you have and they let you in.
 You talk to the enemy king about peace, and that is the story of how the war ended.
