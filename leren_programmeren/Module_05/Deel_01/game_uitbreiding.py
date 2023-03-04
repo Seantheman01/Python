@@ -113,8 +113,8 @@ You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """
-soldaten = 20
-geld = 100
+soldaten = [20]
+geld = [100]
 naam = input("""Before we start, what is your name? """)
 intro = input(f"""
 Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. One of the first paths is harder than the other.
