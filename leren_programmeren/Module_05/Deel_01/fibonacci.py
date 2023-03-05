@@ -4,4 +4,4 @@ def fibonacci(x):
         for y in range(2):
             fibonacci[y-1] + fibonacci[y-2]
             
-fibonacci()
+print(fibonacci)
