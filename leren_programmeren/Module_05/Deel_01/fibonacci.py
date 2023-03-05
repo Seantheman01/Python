@@ -8,5 +8,3 @@ def fibonacci(x):
         return b
     else:
         return fibonacci(x-1) + fibonacci(x-2)
-            
-print(fibonacci)
