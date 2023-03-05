@@ -1,7 +1,12 @@
 def fibonacci(x):
-    teller = 0
-    if x in {0, 1}:
-        for y in range(2):
-            fibonacci[y-1] + fibonacci[y-2]
+    a = 0
+    b = 1
+    
+    if x == 0:
+        return a
+    elif x == 1:
+        return b
+    else:
+        return fibonacci(x-1) + fibonacci(x-2)
             
 print(fibonacci)
