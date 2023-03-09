@@ -3,5 +3,11 @@ def addition(number1, number2):
     if som1 == 'a' or som1 == 'b' or som1 == 'c' or som1 == 'd':
         n1 = int(input("Typ het eerste getal in: "))
         n2 = int(input("Typ het tweede getal in: "))
+    elif som1 == 'e' or som1 == 'f':
+        n1 = int(input("Typ het eerste getal in: "))
+        n2 = 1
+    else:
+        n1 = int(input("Typ het eerste getal in: "))
+        n2 = 2
 
 som2 = int(input(f"Wil je wat met de uitkomst () doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets?"))
