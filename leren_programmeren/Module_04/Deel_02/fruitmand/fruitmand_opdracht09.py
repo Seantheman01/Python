@@ -1,9 +1,8 @@
 from fruitmand import fruitmand
 
-fruitmand.remove({'name' : 'druif',
-    'weight' : 5,
-    'color' : 'red',
-    'round' : True})
-
+for fruit in fruitmand:
+    if fruit['name'] == 'druif':
+        fruitmand.remove()
+    
 for x in fruitmand:
     print(x['color'])
