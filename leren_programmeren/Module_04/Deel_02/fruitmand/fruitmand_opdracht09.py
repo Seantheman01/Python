@@ -3,7 +3,7 @@ kleuren = []
 
 for fruit in fruitmand:
     if fruit['name'] == 'druif':
-        fruit.pop('name')
+        fruitmand.remove(fruit)
     
 for x in fruitmand:
     if x['color'] not in kleuren:
