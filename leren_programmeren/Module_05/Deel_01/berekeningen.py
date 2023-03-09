@@ -10,4 +10,4 @@ def addition(number1, number2):
         n1 = int(input("Typ het eerste getal in: "))
         n2 = 2
 
-som2 = int(input(f"Wil je wat met de uitkomst () doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets?"))
+choice = int(input(f"Wil je wat met de uitkomst () doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets?"))
