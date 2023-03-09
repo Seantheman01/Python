@@ -115,7 +115,7 @@ But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """
 soldaten = 20
 geld = 100
-naam = input("""Before we start, what is your name? """)
+naam = input("Before we start, what is your name? ")
 intro = input(f"""
 Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. One of the first paths is harder than the other.
 That is all you need to know now. 
@@ -144,12 +144,13 @@ Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
             elif spullen == 'steal':
                 elf_winkel =  input(ELF_WINKEL_PAD)
+                soldaten - 5
                 if elf_winkel == 'continue':
                     pad2 = input(PAD2_VRAAG)
                     if pad2 == 'swim':
                         print("""
 You all take of your armor and try to swim across.
-But the water is flowing too fast, and you all get taken bty the water.
+But the water is flowing too fast, and you all get taken by the water.
 Swimming also started to get really difficult, so you all drown.
 GAME OVER""")
                     elif pad2 == 'log':
@@ -157,7 +158,8 @@ GAME OVER""")
                         if grot == 'blocked':
                             print("""
 You enter a dark and narrow cave system.
-You all get lost and after walking around witch no succes, you all fall in a pit.
+You all get lost and after walking around witch no succes.
+Suddenly you all fall in a pit.
 GAME OVER""")
                         elif grot == 'mine':
                             troll = input(TROLL_VRAAG)
@@ -247,7 +249,7 @@ GAME OVER""")
                     bewakers = input(BEWAKERS_VRAAG2) 
                     if bewakers == 'ask':
                         kasteel = print("""
-One of the guards sais: 'Listen up! If you have something to give us, we will let you in.
+One of the guards sais: 'Listen up! If you have something to give us, we will let you in.'
 You ask them what they want, and they say that they want money. You give them the money and supplies.
 You give all the money and supplies you have and they let you in.
 You talk to the enemy king about peace, and that is the story of how the war ended.
