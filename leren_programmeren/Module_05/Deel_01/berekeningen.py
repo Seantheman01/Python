@@ -1,12 +1,12 @@
 def addition(number1, number2):
-    som1 = int(input("Wat wilt u doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren?"))
-    if som1 == 'a' or som1 == 'b' or som1 == 'c' or som1 == 'd':
+    choice = int(input("Wat wilt u doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren?"))
+    if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
         n1 = int(input("Typ het eerste getal in: "))
         n2 = int(input("Typ het tweede getal in: "))
-    elif som1 == 'e' or som1 == 'f':
+    elif choice == 'e' or choice == 'f':
         n1 = int(input("Typ het eerste getal in: "))
         n2 = 1
-    else:
+    elif choice == 'g' or choice == 'h':
         n1 = int(input("Typ het eerste getal in: "))
         n2 = 2
 
