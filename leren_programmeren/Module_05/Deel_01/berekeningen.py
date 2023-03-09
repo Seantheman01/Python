@@ -19,6 +19,7 @@ if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
 elif choice == 'e' or choice == 'f':
     n1 = int(input("Voer een getal in: "))
     n2 = 1
+    
 elif choice == 'g' or choice == 'h':
     n1 = int(input("Voer een getal in: "))
     n2 = 2
