@@ -1,4 +1,4 @@
-from game_tekst import storyline
+from game_storyline import storyline
 
 soldaten = 20
 geld = 100
