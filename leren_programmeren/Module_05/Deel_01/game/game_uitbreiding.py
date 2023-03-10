@@ -1,3 +1,5 @@
+from game_tekst import storyline
+
 soldaten = 20
 geld = 100
 naam = input("Before we start, what is your name? ")
