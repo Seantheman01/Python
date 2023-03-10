@@ -112,5 +112,4 @@ How can you be let in? Choose ask or threaten: """,
 You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
-How can you be let in? Choose ask or threaten: """
-}
+How can you be let in? Choose ask or threaten: """}
