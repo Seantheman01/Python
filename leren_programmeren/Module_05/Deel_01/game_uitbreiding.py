@@ -7,3 +7,4 @@ That is all you need to know for now.
 Good luck on your journey! Are you ready? (just type 'yes or no') """)
 if intro == 'no':
     print("Then why are you playing this?")
+    
