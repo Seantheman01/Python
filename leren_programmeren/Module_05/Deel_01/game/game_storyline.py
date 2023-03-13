@@ -1,4 +1,4 @@
-storyline = {
+storyline = [
     
 """You are the best trained commander of an army. You have been at war with your enemy for many years, and your king is done with it. 
 He sends you and a few other knights out with a letter to end the war.
@@ -114,4 +114,4 @@ You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """
-}
+]
