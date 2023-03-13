@@ -13,3 +13,5 @@ Good luck on your journey! Are you ready? (just type 'yes or no') """)
         print("Then why are you playing this?")
     elif intro == 'yes':
         begin = input(storyline[0])
+    else:
+        begin = input("Choose forest or village: ")
