@@ -17,7 +17,7 @@ elif intro == 'yes':
 else:
     begin = input("Choose forest or village: ")
 
-    if storyline[0] == 'forest':
+    if begin == 'forest':
         print(plaatjes[1])
         pad1 = input(storyline[1])
     
