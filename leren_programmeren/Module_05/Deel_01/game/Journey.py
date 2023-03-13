@@ -15,6 +15,5 @@ Good luck on your journey! Are you ready? (just type 'yes or no') """)
     elif intro == 'yes':
         print(plaatjes[0])
         begin = input(storyline[0])
-
     else:
         begin = input("Choose forest or village: ")
