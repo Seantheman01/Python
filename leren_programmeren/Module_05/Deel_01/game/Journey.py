@@ -1,4 +1,5 @@
 from game_storyline import storyline
+from game_plaatjes import plaatjes
 
 soldaten = 20
 geld = 100
@@ -12,6 +13,8 @@ Good luck on your journey! Are you ready? (just type 'yes or no') """)
     if intro == 'no':
         print("Then why are you playing this?")
     elif intro == 'yes':
+        print(plaatjes[0])
         begin = input(storyline[0])
+
     else:
         begin = input("Choose forest or village: ")
