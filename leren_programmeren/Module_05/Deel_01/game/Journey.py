@@ -15,4 +15,5 @@ elif intro == 'yes':
     print(plaatjes[0])
     begin = input(storyline[0])
 else:
-    begin = input("Choose forest or village: ")
+    begin = input("Choose yes or no")
+    
