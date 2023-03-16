@@ -11,6 +11,7 @@ Choose wich path to go: swamp or elf village? """,
 
 """You enter the elf village, and the elfs greet you politely.    
 They offer you some supplies for a very low price. But you don't really wanna pay.
+But stealing is wrong! But you really need it...
 What will you do: buy or steal? """,
 
 """You steal the supplies and run. The elfs don't like thiefs. They shoot 5 men in their leg.
