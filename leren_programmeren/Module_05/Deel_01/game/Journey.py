@@ -1,7 +1,7 @@
 from game_storyline import storyline
 from game_plaatjes import plaatjes
 
-print[2]
+print(plaatjes[2])
 # soldaten = 20
 # geld = 100
 # naam = input("""---------- Welcome to Journey! ----------
