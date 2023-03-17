@@ -30,18 +30,18 @@ elif choice == 'e' or choice == 'f':
     n2 = 1
     
     if choice == 'e':
-        uitkomst = n1 + n2
+        uitkomst = addition(n1, n2)
     elif choice == 'f':
-        uitkomst = n1 - n2
+        uitkomst = substraction(n1, n2)
     
 elif choice == 'g' or choice == 'h':
     n1 = int(input("Voer een getal in: "))
     n2 = 2
 
     if choice == 'g':
-        uitkomst = n1 * n2
+        uitkomst = multiplication(n1, n2)
     elif choice == 'h':
-        uitkomst = n1 / n2
+        uitkomst = division(n1, n2)
         
 print(f"{n1} + {n2} = {uitkomst}")        
 choice = input(f"Wil je wat met de uitkomst ({uitkomst}) doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets? ")
