@@ -17,13 +17,13 @@ if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
     n2 = int(input("Voer het tweede getal in: "))
     
     if choice == 'a':
-        uitkomst = n1 + n2
+        uitkomst = addition(n1, n2)
     elif choice == 'b':
-        uitkomst = n1 - n2
+        uitkomst = substraction(n1, n2)
     elif choice == 'c':
-        uitkomst = n1 * n2
+        uitkomst = multiplication(n1, n2)
     elif choice == 'd':
-        uitkomst = n1 / n2
+        uitkomst = division(n1, n2)
 
 elif choice == 'e' or choice == 'f':
     n1 = int(input("Voer een getal in: "))
