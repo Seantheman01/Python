@@ -28,6 +28,7 @@ if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
 elif choice == 'e' or choice == 'f':
     n1 = int(input("Voer een getal in: "))
     n2 = 1
+    print(n2)
     
     if choice == 'e':
         uitkomst = addition(n1, n2)
@@ -37,6 +38,7 @@ elif choice == 'e' or choice == 'f':
 elif choice == 'g' or choice == 'h':
     n1 = int(input("Voer een getal in: "))
     n2 = 2
+    print(n2)
 
     if choice == 'g':
         uitkomst = multiplication(n1, n2)
