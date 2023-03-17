@@ -42,6 +42,5 @@ elif choice == 'g' or choice == 'h':
         uitkomst = multiplication(n1, n2)
     elif choice == 'h':
         uitkomst = division(n1, n2)
-        
-print(f"{n1} + {n2} = {uitkomst}")        
+             
 choice = input(f"Wil je wat met de uitkomst ({uitkomst}) doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets? ")
