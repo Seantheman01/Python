@@ -29,7 +29,6 @@ while True:
     elif choice == 'e' or choice == 'f':
         n1 = int(input("Voer een getal in: "))
         n2 = 1
-        print(n2)
         
         if choice == 'e':
             uitkomst = addition(n1, n2)
@@ -39,7 +38,6 @@ while True:
     elif choice == 'g' or choice == 'h':
         n1 = int(input("Voer een getal in: "))
         n2 = 2
-        print(n2)
 
         if choice == 'g':
             uitkomst = multiplication(n1, n2)
