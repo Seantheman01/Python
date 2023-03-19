@@ -10,9 +10,9 @@ def multiplication(number1, number2):
 def division(number1, number2):
     print(number1 / number2)
    
-while True: 
-    choice = input("Wat wilt je doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren? ")
+choice = input("Wat wilt je doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren? ")
 
+while True: 
     if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
         n1 = int(input("Voer het eerste getal in: "))
         n2 = int(input("Voer het tweede getal in: "))
