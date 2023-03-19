@@ -45,3 +45,5 @@ while True:
             uitkomst = division(n1, n2)
                 
     choice = input(f"Wil je wat met de uitkomst ({uitkomst}) doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets? ")
+    if choice == 'i':
+        break
