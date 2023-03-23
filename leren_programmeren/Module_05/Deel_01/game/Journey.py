@@ -11,14 +11,3 @@ That is all you need to know for now.
 Good luck on your journey! Are you ready? (just type 'yes or no') """)
 if INTRO == 'no':
     print("Then why are you playing this?")
-elif INTRO == 'yes':
-    while True:
-        print(plaatjes[0])
-        BEGIN = input(storyline[0])
-        if BEGIN == 'forest':
-            print(plaatjes[1])
-            pad1_vraag = input(storyline[1])
-            if pad1_vraag == 'elf village':
-                SPULLEN_VRAAG = input(storyline[2])
-else:
-    BEGIN = input("Choose yes or no")
