@@ -56,7 +56,11 @@ while True:
         if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
             n1 = uitkomst
             n2 = int(input("Voer een getal in: "))
-        elif choice == 'e' or choice == 'f' or choice == 'g' or choice == 'h':
+        elif choice == 'e' or choice == 'f':
             n1 = uitkomst
+            n2 = 1
+        elif choice == 'g' or choice == 'h':
+            n1 = uitkomst
+            n2 = 2
         elif choice == 'i':
                 break
