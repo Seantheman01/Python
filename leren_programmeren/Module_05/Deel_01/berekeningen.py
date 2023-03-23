@@ -12,11 +12,11 @@ def division(number1, number2):
    
 choice = input("Wat wilt je doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren? ")
 
+if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
+    n1 = int(input("Voer het eerste getal in: "))
+    n2 = int(input("Voer het tweede getal in: "))
+    
 while True:
-    if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
-        n1 = int(input("Voer het eerste getal in: "))
-        n2 = int(input("Voer het tweede getal in: "))
-
         if choice == 'a':
             uitkomst = addition(n1, n2)
             print(f"{n1} + {n2} = {uitkomst}")
@@ -56,11 +56,5 @@ while True:
         if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
             n1 = uitkomst
             n2 = int(input("Voer een getal in: "))
-        elif choice == 'e' or choice == 'f':
-            n1 = uitkomst
-            n2 = 1
-        elif choice == 'g' or choice == 'h':
-            n1 = uitkomst
-            n2 = 2
         elif choice == 'i':
             break
