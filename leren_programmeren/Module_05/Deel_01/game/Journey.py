@@ -19,4 +19,3 @@ elif intro == 'yes':
         pad1_vraag = input(storyline[1])
 else:
     begin = input("Choose yes or no")
-
