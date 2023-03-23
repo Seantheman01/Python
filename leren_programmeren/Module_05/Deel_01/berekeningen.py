@@ -53,8 +53,10 @@ while True:
                 print(f"{n1} : {n2} = {uitkomst}")
                     
         choice = input(f"Wil je wat met de uitkomst ({uitkomst}) doen? A) iets optellen, B) iets aftrekken, C) met iets vermenigvuldigen, D) ergens door delen, E) ophogen, F) verlagen, G) verdubbelen, H) halveren of I) niets? ")
-        n1 = uitkomst
-        n2 = int(input("Voer een getal in: "))
-        
-        if choice == 'i':
-            break
+        if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
+            n1 = uitkomst
+            n2 = int(input("Voer een getal in: "))
+        elif choice == 'e' or choice == 'f' or choice == 'g' or choice == 'h':
+            n1 = uitkomst
+        elif choice == 'i':
+                break
