@@ -22,6 +22,14 @@ elif INTRO == 'yes':
             SPULLEN = input(storyline[2])
             if SPULLEN == 'buy':
                 ELF_WINKEL = input(storyline[3])
-                
+                if ELF_WINKEL == 'pickaxe' or ELF_WINKEL == 'sword':
+                    betaalt = geld - 30
+                    print(plaatjes[2])
+                    PAD2 = input(f"""
+You bought the {ELF_WINKEL} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+Eventually you reach the lake, but you need to get across.
+How will you cross the river: swim or use a log (just type 'log')? """)
+                    if PAD2 == 'log':
+                        GROT = input(storyline[6])
 else:
     BEGIN = ("Choose yes or no")
