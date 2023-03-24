@@ -11,3 +11,8 @@ That is all you need to know for now.
 Good luck on your journey! Are you ready? (just type 'yes or no') """)
 if INTRO == 'no':
     print("Then why are you playing this?")
+elif INTRO == 'yes':
+    print(plaatjes[0])
+    BEGIN = input(storyline[0])
+else:
+    BEGIN = ("Choose yes or no")
