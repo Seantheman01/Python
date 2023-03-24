@@ -9,6 +9,7 @@ INTRO = input(f""" Hello {naam}! Here are some tips: You have 20 soldiers with y
 One of the first paths is harder than the other.
 That is all you need to know for now. 
 Good luck on your journey! Are you ready? (just type 'yes or no') """)
+
 if INTRO == 'no':
     print("Then why are you playing this?")
 elif INTRO == 'yes':
@@ -17,5 +18,11 @@ elif INTRO == 'yes':
     if BEGIN == 'forest':
         print(plaatjes[1])
         PAD1 = input(storyline[1])
+        if PAD1 == 'elf village':
+            SPULLEN = input(storyline[2])
+            if SPULLEN == 'buy':
+                ELF_WINKEL = input(storyline[3])
+                print(plaatjes[2])
+                
 else:
     BEGIN = ("Choose yes or no")

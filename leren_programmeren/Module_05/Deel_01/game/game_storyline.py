@@ -14,6 +14,9 @@ They offer you some supplies for a very low price. But you don't really wanna pa
 But stealing is wrong! But you really need it...
 What will you do: buy or steal? """,
 
+"""You can buy a new shiny sword, but there is also a pickaxe on sale.
+What will you buy: sword or pickaxe?""",
+
 """You steal the supplies and run. The elfs don't like thiefs. They shoot 5 men in their leg.
 You don't want to leave them, but you don't know if you can save them.
 What will you do: save them (just type 'save') or continue? """,
