@@ -22,7 +22,6 @@ elif INTRO == 'yes':
             SPULLEN = input(storyline[2])
             if SPULLEN == 'buy':
                 ELF_WINKEL = input(storyline[3])
-                print(plaatjes[2])
                 
 else:
     BEGIN = ("Choose yes or no")
