@@ -30,6 +30,8 @@ You bought the {ELF_WINKEL} for 30 coins from the shop, but you realize the rest
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
                     if PAD2 == 'log':
+                        print(plaatjes[3])
                         GROT = input(storyline[6])
+                        
 else:
     BEGIN = ("Choose yes or no")
