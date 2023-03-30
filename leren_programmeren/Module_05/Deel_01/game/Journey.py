@@ -1,8 +1,8 @@
 from game_storyline import storyline
 from game_plaatjes import plaatjes
-from game_GAME_OVER import GAME_OVER
+from game_game_over import game_over
 
-print(GAME_OVER[1])
+print(game_over[1])
 # soldaten = 20
 # geld = 100
 # naam = input("""---------- Welcome to Journey! ----------
