@@ -2,7 +2,7 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 
 def eind_score():
-    print("You win!")
+    print("")
 
 soldaten = 20
 geld = 100
