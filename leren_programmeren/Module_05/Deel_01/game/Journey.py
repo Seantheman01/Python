@@ -18,6 +18,8 @@ elif INTRO == 'yes':
         BEGIN = input(storyline[0])         
         if BEGIN == 'forest':
             print(plaatjes[1])
-            PAD1 = input(storyline[1])   
+            PAD1 = input(storyline[1])
+            if PAD1 == 'elf village':
+                ELF_DORP = input(storyline[2])
 else:
-    BEGIN = ("Choose yes or no")
+    BEGIN = input("Choose yes or no: ")
