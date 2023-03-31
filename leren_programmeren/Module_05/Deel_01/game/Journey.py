@@ -15,6 +15,9 @@ if INTRO == 'no':
 elif INTRO == 'yes':
     while True:
         print(plaatjes[0])
-        BEGIN = input(storyline[0])              
+        BEGIN = input(storyline[0])         
+        if BEGIN == 'forest':
+            print(plaatjes[1])
+            PAD1 = input(storyline[1])   
 else:
     BEGIN = ("Choose yes or no")
