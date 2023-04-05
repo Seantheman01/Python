@@ -24,12 +24,16 @@ elif INTRO == 'yes':
                 if ELF_DORP == 'buy':
                     PRODUCTEN = input(storyline[3])
                     if PRODUCTEN == 'sword':
-                        KOPEN = input(f"""You bought the {PRODUCTEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+                        print(plaatjes[2])
+                        PAD2 = input(f"""You bought the {PRODUCTEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
-                        if KOPEN == 'log':
-                            PAD2 = input(storyline[6])
-                            
-
+                        if PAD2 == 'log':
+                            print(plaatjes[3])
+                            GROT = input(storyline[6])
+                            if GROT == 'mine':
+                               TROL = input(storyline[7])
+                                
+                                
 else:
     BEGIN = input("Choose yes or no: ")
