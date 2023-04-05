@@ -25,7 +25,7 @@ You managed to get across the river using the log. On the other side, there is a
 You and your team enter the cave. After walking in a straight line for a while, 2 paths appear.
 One path is blocked off, and the other is a dangerous looking mine.
 Wich path to take: mine or blocked off area (just type 'blocked')? """
-TROLL_VRAAG = """
+TROL_VRAAG = """
 You enter the mine, and the path is pretty dangerous.
 There are a lot holes and sharp rocks to watch out for. But out of nowhere, a big troll appears.
 What will you do: fight, run or yell at it (just type 'yell')? """
@@ -162,7 +162,7 @@ You all get lost and after walking around witch no succes.
 Suddenly you all fall in a pit.
 GAME OVER""")
                         elif grot == 'mine':
-                            troll = input(TROLL_VRAAG)
+                            troll = input(TROL_VRAAG)
                             if troll == 'fight':
                                 print("""
 The troll is way bigger and stronger than you.
