@@ -21,5 +21,13 @@ elif INTRO == 'yes':
             PAD1 = input(storyline[1])
             if PAD1 == 'elf village':
                 ELF_DORP = input(storyline[2])
+                if ELF_DORP == 'buy':
+                    PRODUCTEN = input(storyline[3])
+                    if PRODUCTEN == 'sword':
+                        PAD2 = input(f"""You bought the {PRODUCTEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+Eventually you reach the lake, but you need to get across.
+How will you cross the river: swim or use a log (just type 'log')? """)
+                        
+                        
 else:
     BEGIN = input("Choose yes or no: ")
