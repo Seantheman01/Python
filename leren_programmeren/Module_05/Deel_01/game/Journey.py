@@ -33,7 +33,8 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             GROT = input(storyline[6])
                             if GROT == 'mine':
                                TROL = input(storyline[7])
-                                
+                               if TROL == 'yell':
+                                   MINEN = input(storyline[8])
                                 
 else:
     BEGIN = input("Choose yes or no: ")
