@@ -77,3 +77,5 @@
 # met een return kan je data opslaan
 
 # een globale variabele zit in de function
+
+# een argument is wat geprint word
