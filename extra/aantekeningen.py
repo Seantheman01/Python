@@ -79,3 +79,5 @@
 # een globale variabele zit in de function
 
 # een argument is wat geprint word
+
+# een parameter staat in de function
