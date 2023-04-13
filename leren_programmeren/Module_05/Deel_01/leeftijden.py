@@ -12,6 +12,6 @@ def mijn_functie():
             if verder == 'stop':
                 break
             
-    print(naam_lijst + leeftijd_lijst)
+    return naam_lijst + leeftijd_lijst
             
-mijn_functie()
+print(mijn_functie())
