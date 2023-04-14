@@ -1,6 +1,3 @@
-# naam_lijst = []
-# leeftijd_lijst= []
-
 namen_en_leeftijden = {}
 
 def mijn_functie():
@@ -9,10 +6,10 @@ def mijn_functie():
         leeftijd = int(input("Typ een leeftijd in: "))
         namen_en_leeftijden['leeftijd'] = leeftijd
         
-        verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
-        if verder == 'stop':
-            return namen_en_leeftijden
-
-    # return naam_lijst + leeftijd_lijst
-
+        return namen_en_leeftijden
+    
+        # verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
+        # if verder == 'stop':
+        #     break
+            
 print(mijn_functie())
