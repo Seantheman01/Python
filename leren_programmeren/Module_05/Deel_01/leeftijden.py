@@ -15,6 +15,7 @@ while True:
         if verder == 'stop':
             break
         else:
-            namen_en_leeftijden_lijst.append(mijn_functie())
+            namen_en_leeftijden_lijst.append(namen_en_leeftijden_dict)
 
-print()
+for x in namen_en_leeftijden_lijst:
+    print(f"{namen_en_leeftijden_dict['naam']} is {namen_en_leeftijden_dict['leeftijd']} jaar")
