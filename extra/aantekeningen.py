@@ -39,6 +39,7 @@
 
 # condities zijn de dingen voor de dubbele punt : in een if statement en een while loop
 # conditie levert True of False op
+# True en False zijn boolean
 
 # abs maakt een positief getal negatief, en een negatief getal positief
 
