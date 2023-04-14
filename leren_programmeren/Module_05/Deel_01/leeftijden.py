@@ -6,7 +6,7 @@ def mijn_functie():
         namen_en_leeftijden_dict['naam'] = naam
         leeftijd = int(input("Typ een leeftijd in: "))
         namen_en_leeftijden_dict['leeftijd'] = leeftijd
-  
+
         return namen_en_leeftijden_dict
 
 while True:
