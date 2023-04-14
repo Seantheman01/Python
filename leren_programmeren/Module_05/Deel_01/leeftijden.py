@@ -9,10 +9,9 @@ def mijn_functie():
         leeftijd = int(input("Typ een leeftijd in: "))
         namen_en_leeftijden['leeftijd'] = leeftijd
         
-        return namen_en_leeftijden
-        # verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
-        # if verder == 'stop':
-        #     break
+        verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
+        if verder == 'stop':
+            return namen_en_leeftijden
 
     # return naam_lijst + leeftijd_lijst
 
