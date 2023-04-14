@@ -16,5 +16,5 @@ while True:
             break
         else:
             namen_en_leeftijden_lijst.append(mijn_functie())
-            
+
 print()
