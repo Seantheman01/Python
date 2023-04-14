@@ -1,15 +1,20 @@
-namen_en_leeftijden = {}
+namen_en_leeftijden_dict = {}
+namen_en_leeftijden_lijst = []
 
 def mijn_functie():
         naam = input("Typ een naam in: ")
-        namen_en_leeftijden['naam'] = naam
+        namen_en_leeftijden_dict['naam'] = naam
         leeftijd = int(input("Typ een leeftijd in: "))
-        namen_en_leeftijden['leeftijd'] = leeftijd
+        namen_en_leeftijden_dict['leeftijd'] = leeftijd
   
-        return namen_en_leeftijden
+        return namen_en_leeftijden_dict
 
-        # verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
-        # if verder == 'stop':
-        #     break
-
-print(mijn_functie())
+while True:
+        mijn_functie()
+        verder = input("Toets enter om door te gaan of 'stop' om te printen: ")
+        if verder == 'stop':
+            break
+        else:
+            namen_en_leeftijden_lijst.append(mijn_functie())
+            
+print()
