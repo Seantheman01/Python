@@ -23,7 +23,7 @@ elif INTRO == 'yes':
                 ELF_DORP = input(storyline[2])
                 if ELF_DORP == 'buy':
                     PRODUCTEN = input(storyline[3])
-                    if PRODUCTEN == 'sword':
+                    if PRODUCTEN == 'sword' or PRODUCTEN == 'pickaxe':
                         print(plaatjes[2])
                         PAD2 = input(f"""You bought the {PRODUCTEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
