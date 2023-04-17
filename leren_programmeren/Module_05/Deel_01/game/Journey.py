@@ -35,7 +35,11 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                TROL = input(storyline[7])
                                if TROL == 'yell':
                                    MINEN = input(storyline[8])
-                                   
+                                   # Hier komt nog iets tussen.
+
+        elif BEGIN == 'village':
+            print(plaatjes[4])
+            PAD1 = input(storyline[11])                 
                                 
 else:
     BEGIN = input("Choose yes or no: ")

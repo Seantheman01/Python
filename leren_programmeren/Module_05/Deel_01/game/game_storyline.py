@@ -11,7 +11,7 @@ Choose wich path to go: swamp or elf village? """,
 
 """You enter the elf village, and the elfs greet you politely.    
 They offer you some supplies for a very low price. But you don't really wanna pay.
-But stealing is wrong! But you really need it...
+But stealing is wrong! Although you really need it...
 What will you do: buy or steal? """,
 
 """You can buy a new shiny sword, but there is also a pickaxe on sale.
@@ -56,6 +56,7 @@ You enter the village, but all the villagers went silent.
 You tell them you are no threat, but they still don't really trust you.
 You enter the shop and they sell a very shiny, beautiful and expensive battle axe.
 But the axe is a bit too expensive.
+But stealing is wrong! Although you really need it...
 What will you do? Ask for a cheaper price (just type 'cheaper') or steal: """,
 
 """You steal the axe and run. The villagers get really mad and out of anger they trap 3 of your men.
