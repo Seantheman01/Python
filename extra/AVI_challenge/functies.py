@@ -15,6 +15,7 @@ als je de reacties van je vrienden en familie ziet, als je ze verrast met je eig
 """
 
 ALLOWED_IN_WORD = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
+NOT_ALLOWED_IN_WORD = ".?!()/"
 
 # depending on the type of text you wish you get an easy, difficult or text from file.
 def getText(choice: str) -> str:
@@ -42,7 +43,7 @@ def getNumberOfCharacters(text: str) -> int:
 def getNumberOfSentences(text: str) -> int:
     zinnen = 0
     for x in text:
-        if x == "." or x == "!" or x == "?":
+        if x in NOT_ALLOWED_IN_WORD:
             zinnen += 1
     return zinnen
 
@@ -54,16 +55,16 @@ def getNumberOfWords(text: str) -> int:
 # opdracht 4
 def score_retourneren(text: str) -> int:
     AVI_score = 0
-    if getNumberOfWords(text) <= 7:
+    if getNumberOfWords(text) / getNumberOfSentences(text) <= 7:
         AVI_score = 5
-    elif getNumberOfWords(text) == 8:
+    elif getNumberOfWords(text) / getNumberOfSentences(text) == 8:
         AVI_score = 6
-    elif getNumberOfWords(text) == 9:
+    elif getNumberOfWords(text) / getNumberOfSentences(text) == 9:
         AVI_score = 7
-    elif getNumberOfWords(text) == 10:
+    elif getNumberOfWords(text) / getNumberOfSentences(text) == 10:
         AVI_score = 8
-    elif getNumberOfWords(text) == 11:
+    elif getNumberOfWords(text) / getNumberOfSentences(text) == 11:
         AVI_score = 11
-    elif getNumberOfWords(text) > 11:
+    elif getNumberOfWords(text) / getNumberOfSentences(text) > 11:
         AVI_score = 12
     return AVI_score
