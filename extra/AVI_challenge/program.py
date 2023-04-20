@@ -4,20 +4,6 @@ from tkinter import ttk
 import tkinter.messagebox # if you want to send messages to the user.
 
 # functions
-def score_retourneren(text: str) -> int:
-    if getNumberOfWords(text) <= 7:
-        return("5")
-    elif getNumberOfWords(text) == 8:
-        return("6")
-    elif getNumberOfWords(text) == 9:
-        return("7")
-    elif getNumberOfWords(text) == 10:
-        return("8")
-    elif getNumberOfWords(text) == 11:
-        return("11")
-    elif getNumberOfWords(text) > 11:
-        return("12")
-
 def calculate():
     textToBeCalculated = calculateInput.get('1.0', 'end') # get all the text from inputfield
     characterLabel.config(text=f"Karakter: {getNumberOfCharacters(textToBeCalculated)}")
