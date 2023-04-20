@@ -42,7 +42,7 @@ def getNumberOfCharacters(text: str) -> int:
 def getNumberOfSentences(text: str) -> int:
     zinnen = 0
     for x in text:
-        if x == "." or x == "!" or x == "?":
+        if x == "." or x == "?" or x == "!":
             zinnen += 1
     return zinnen
 
