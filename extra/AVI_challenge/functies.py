@@ -34,8 +34,6 @@ def getFileContentAsString(textFile: str) -> str:
 def getNumberOfCharacters(text: str) -> int:
     return len(EASY_TEXT)
 
-print(getNumberOfCharacters(text=str))
-
 # opdracht 2
 def getNumberOfSentences(text: str) -> int:
     return 0
