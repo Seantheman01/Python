@@ -9,10 +9,7 @@ def calculate():
     characterLabel.config(text=f"Karakter: {getNumberOfCharacters(textToBeCalculated)}")
     wordsLabel.config(text=f"Woorden: {getNumberOfWords(textToBeCalculated)}")
     sentencesLabel.config(text =f"Zinnen: {getNumberOfSentences(textToBeCalculated)}")
-    
-def score_retourneren():
-    
-
+    scoreLabel.config(text =f"AVI score: {score_retourneren(textToBeCalculated)}")
 
 #variables TK
 root = tk.Tk()              # create tkInter window
@@ -23,12 +20,14 @@ calculateButton = ttk.Button(root, text='Bereken score(s)', command=calculate)  
 characterLabel = tk.Label(root, text=f'Karakters:', width=20, bg='black', fg='white') # generate characterLabel
 wordsLabel = tk.Label(root, text=f'Woorden:', width=20, bg='black', fg='white')       # generate wordsLabel
 sentencesLabel = tk.Label(root, text=f'Zinnen:', width=20, bg='black', fg='white')    # generate sentencesLabel
+scoreLabel = tk.Label(root, text=f'AVI score:', width=20, bg='black', fg='white')        # generate scoreLabel
 
 calculateInput.place(x=20, y=20)   # place is one of the ways to put elements on root (window).
 calculateButton.place(x=20, y=520)
 characterLabel.place(x=180, y=560)
-wordsLabel.place(x=340, y=560)
+wordsLabel.place(x=320, y=560)
 sentencesLabel.place(x=20, y=560)
+scoreLabel.place(x=460, y=560)
 
 # start program
 root.mainloop() # runs until stopped with default stop button.
