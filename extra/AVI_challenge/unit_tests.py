@@ -5,8 +5,6 @@ if getNumberOfCharacters('aap') == 3:
     print("Test geslaagd")
 else:
     print("Deze test is niet geslaagd")
-    
-print(getNumberOfCharacters(text=str))
 
 # schrijf zelf nog wat extra testen voor getNumberOfCharacters
 
@@ -16,8 +14,6 @@ if getNumberOfSentences(getText('easy')) == 14:
 else:
     print("Deze test is niet geslaagd")
     
-print(getNumberOfSentences(text=str))
-
 # schrijf zelf nog een extra testen voor getNumberOfSentences (gebruik test.txt).
 
 # test 3: getNumberOfWords
@@ -32,6 +28,4 @@ if getNumberOfWords(getText('D:\School\Software_developer\Python\extra\AVI_chall
 else:
     print("Deze test is niet geslaagd")
     
-print(getNumberOfWords(text=str))
-
 # schrijf zelf nog een extra testen voor getNumberOfWords (gebruik test.txt).
