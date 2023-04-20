@@ -52,19 +52,20 @@ def getNumberOfWords(text: str) -> int:
     woord_splisten = text.split()
     return len(woord_splisten)
 
-# opdracht 4
+# opdracht 5
 def score_retourneren(text: str) -> int:
     AVI_score = 0
-    if getNumberOfWords(text) / getNumberOfSentences(text) <= 7:
+    gemiddeld = abs(getNumberOfWords(text) / getNumberOfSentences(text))
+    if gemiddeld <= 7:
         AVI_score = 5
-    elif getNumberOfWords(text) / getNumberOfSentences(text) == 8:
+    elif gemiddeld >= 8:
         AVI_score = 6
-    elif getNumberOfWords(text) / getNumberOfSentences(text) == 9:
+    elif gemiddeld >= 9:
         AVI_score = 7
-    elif getNumberOfWords(text) / getNumberOfSentences(text) == 10:
+    elif gemiddeld >= 10:
         AVI_score = 8
-    elif getNumberOfWords(text) / getNumberOfSentences(text) == 11:
+    elif gemiddeld >= 11:
         AVI_score = 11
-    elif getNumberOfWords(text) / getNumberOfSentences(text) > 11:
+    elif gemiddeld > 11:
         AVI_score = 12
     return AVI_score
