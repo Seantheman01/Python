@@ -9,6 +9,9 @@ def calculate():
     characterLabel.config(text=f"Karakter: {getNumberOfCharacters(textToBeCalculated)}")
     wordsLabel.config(text=f"Woorden: {getNumberOfWords(textToBeCalculated)}")
     sentencesLabel.config(text =f"Zinnen: {getNumberOfSentences(textToBeCalculated)}")
+    
+def score_retourneren():
+    
 
 
 #variables TK
