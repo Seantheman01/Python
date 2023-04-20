@@ -15,7 +15,7 @@ als je de reacties van je vrienden en familie ziet, als je ze verrast met je eig
 """
 
 ALLOWED_IN_WORD = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"
-NOT_ALLOWED_IN_WORD = ".?!()/"
+NOT_ALLOWED_IN_WORD = ".?!"
 
 # depending on the type of text you wish you get an easy, difficult or text from file.
 def getText(choice: str) -> str:
