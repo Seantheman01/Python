@@ -32,12 +32,17 @@ def getFileContentAsString(textFile: str) -> str:
 
 # opdracht 1
 def getNumberOfCharacters(text: str) -> int:
+    # teller = 0
+    # for x in text:
+    #     if x in ALLOWED_IN_WORD:
+    #         teller += 1
+    # return teller
     return len(EASY_TEXT)
 
 # opdracht 2
 def getNumberOfSentences(text: str) -> int:
-    zin_teller = EASY_TEXT.count(".")
-    return zin_teller
+    zin_tellen = EASY_TEXT.count(".")
+    return zin_tellen
 
 # opdracht 3
 def getNumberOfWords(text: str) -> int:
