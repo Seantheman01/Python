@@ -6,7 +6,7 @@ import tkinter.messagebox # if you want to send messages to the user.
 # functions
 def calculate():
     textToBeCalculated = calculateInput.get('1.0', 'end') # get all the text from inputfield
-    characterLabel.config(text=f"Zinnen: {getNumberOfCharacters(textToBeCalculated)}")
+    characterLabel.config(text=f"Karakter: {getNumberOfCharacters(textToBeCalculated)}")
     sentencesLabel.config(text =f"Zinnen: {getNumberOfSentences(textToBeCalculated)}")
 
 
