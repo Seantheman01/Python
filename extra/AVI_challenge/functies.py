@@ -52,15 +52,17 @@ def getNumberOfWords(text: str) -> int:
     return len(woord_splisten)
 
 def score_retourneren(text: str) -> int:
+    AVI_score = 0
     if getNumberOfWords(text) <= 7:
-        return("5")
+        AVI_score = 5
     elif getNumberOfWords(text) == 8:
-        return("6")
+        AVI_score = 6
     elif getNumberOfWords(text) == 9:
-        return("7")
+        AVI_score = 7
     elif getNumberOfWords(text) == 10:
-        return("8")
+        AVI_score = 8
     elif getNumberOfWords(text) == 11:
-        return("11")
+        AVI_score = 11
     elif getNumberOfWords(text) > 11:
-        return("12")
+        AVI_score = 12
+    return AVI_score
