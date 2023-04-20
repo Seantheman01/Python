@@ -36,10 +36,10 @@ def getNumberOfCharacters(text: str) -> int:
 
 # opdracht 2
 def getNumberOfSentences(text: str) -> int:
-    zin_teller = EASY_TEXT.count(".") 
+    zin_teller = EASY_TEXT.count(".")
     return zin_teller
 
 # opdracht 3
 def getNumberOfWords(text: str) -> int:
-     
-    return
+    woord_splisten = text.split()
+    return len(woord_splisten)
