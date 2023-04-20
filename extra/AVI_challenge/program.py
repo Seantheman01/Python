@@ -38,10 +38,10 @@ scoreLabel = tk.Label(root, text=f'AVI score:', width=20, bg='black', fg='white'
 
 calculateInput.place(x=20, y=20)   # place is one of the ways to put elements on root (window).
 calculateButton.place(x=20, y=520)
-characterLabel.place(x=180, y=560)
-wordsLabel.place(x=320, y=560)
-sentencesLabel.place(x=20, y=560)
-scoreLabel.place(x=460, y=560)
+characterLabel.place(x=140, y=560)
+wordsLabel.place(x=280, y=560)
+sentencesLabel.place(x=0, y=560)
+scoreLabel.place(x=420, y=560)
 
 # start program
 root.mainloop() # runs until stopped with default stop button.
