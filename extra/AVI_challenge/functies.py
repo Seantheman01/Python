@@ -51,6 +51,7 @@ def getNumberOfWords(text: str) -> int:
     woord_splisten = text.split()
     return len(woord_splisten)
 
+# opdracht 4
 def score_retourneren(text: str) -> int:
     AVI_score = 0
     if getNumberOfWords(text) <= 7:
