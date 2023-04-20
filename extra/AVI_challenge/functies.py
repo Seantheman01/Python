@@ -41,5 +41,5 @@ def getNumberOfSentences(text: str) -> int:
 
 # opdracht 3
 def getNumberOfWords(text: str) -> int:
-    woord_teller = EASY_TEXT.count(" ")
-    return woord_teller
+    
+    return
