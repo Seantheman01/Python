@@ -41,5 +41,5 @@ def getNumberOfSentences(text: str) -> int:
 
 # opdracht 3
 def getNumberOfWords(text: str) -> int:
-    
+     
     return
