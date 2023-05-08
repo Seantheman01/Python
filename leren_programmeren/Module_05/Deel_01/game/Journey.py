@@ -22,9 +22,9 @@ elif INTRO == 'yes':
             if PAD1 == 'elf village':
                 ELF_DORP = input(storyline[2])
                 if ELF_DORP == 'buy':
-                    PRODUCTEN = input(storyline[3])
-                    if PRODUCTEN == 'sword' or PRODUCTEN == 'pickaxe':
-                        PAD2 = input(f"""You bought the {PRODUCTEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+                    SPULLEN = input(storyline[3])
+                    if SPULLEN == 'sword' or SPULLEN == 'pickaxe':
+                        PAD2 = input(f"""You bought the {SPULLEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
                         print(plaatjes[2])
@@ -36,6 +36,13 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                if TROL == 'yell':
                                    MINEN = input(storyline[8])
                                    # Hier komt nog iets tussen.
+                elif ELF_DORP == 'steal':
+                        SPULLEN = input(storyline[4])
+                        if SPULLEN == 'continue':
+                            PAD2 = input(f"""You bought the {SPULLEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+Eventually you reach the lake, but you need to get across.
+How will you cross the river: swim or use a log (just type 'log')? """)
+                            
             elif PAD1 == 'swamp':
                 print("""You and your team get stuck in the mud. You all start sinking slowely.
 GAME OVER""")
