@@ -44,7 +44,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                 MUUR = input(storyline[14])
                 if MUUR == 'ask':
                     VERDER = input(storyline[15])
-                                 
+                               
 
 else:
     BEGIN = input("Choose yes or no: ")
