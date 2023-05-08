@@ -31,7 +31,7 @@ while True:
         uitkomst = division(n1, n2)
         print(f"{n1} : {n2} = {uitkomst}")
 
-    if choice == 'e':
+    elif choice == 'e':
         n2 = 1
         uitkomst = addition(n1, n2)
         print(f"{n1} + {n2} = {uitkomst}")
@@ -40,7 +40,7 @@ while True:
         uitkomst = substraction(n1, n2)
         print(f"{n1} - {n2} = {uitkomst}")
 
-    if choice == 'g':
+    elif choice == 'g':
         n2 = 2
         uitkomst = multiplication(n1, n2)
         print(f"{n1} x {n2} = {uitkomst}")
