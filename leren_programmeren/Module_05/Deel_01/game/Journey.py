@@ -46,6 +46,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                     VERDER = input(storyline[15])
                     if VERDER == 'tell':
                         BANDIETEN = input(storyline[16])
-
+                        if BANDIETEN == 'fight':
+                            BEWAKERS = input(storyline[18])
 else:
     BEGIN = input("Choose yes or no: ")
