@@ -36,6 +36,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                if TROL == 'yell':
                                    MINEN = input(storyline[8])
                                    # Hier komt nog iets tussen.
+                                   
                 elif ELF_DORP == 'steal':
                         SPULLEN = input(storyline[4])
                         if SPULLEN == 'continue':
