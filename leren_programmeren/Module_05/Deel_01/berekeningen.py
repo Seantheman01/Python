@@ -17,20 +17,19 @@ choice = input("Wat wilt je doen? A) getallen optellen, B) getallen aftrekken, C
 n1 = int(input("Voer het eerste getal in: "))
 
 while True:
-    if choice == 'a':
+    if choice == 'a' or choice == 'b' or choice == 'c' or choice == 'd':
         n2 = int(input(tweede_getal()))
+        
+    if choice == 'a':
         uitkomst = addition(n1, n2)
         print(f"{n1} + {n2} = {uitkomst}")
     elif choice == 'b':
-        n2 = int(input(tweede_getal()))
         uitkomst = substraction(n1, n2)
         print(f"{n1} - {n2} = {uitkomst}")
     elif choice == 'c':
-        n2 = int(input(tweede_getal()))
         uitkomst = multiplication(n1, n2)
         print(f"{n1} x {n2} = {uitkomst}")
     elif choice == 'd':
-        n2 = int(input(tweede_getal()))
         uitkomst = division(n1, n2)
         print(f"{n1} : {n2} = {uitkomst}")
 
