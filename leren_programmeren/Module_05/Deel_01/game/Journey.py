@@ -39,7 +39,10 @@ How will you cross the river: swim or use a log (just type 'log')? """)
 
         elif BEGIN == 'village':
             print(plaatjes[4])
-            PAD1 = input(storyline[11])                 
+            PAD1 = input(storyline[11])
+            if PAD1 == 'cheaper':
+                MUUR = input(storyline[14])
+                
             
 else:
     BEGIN = input("Choose yes or no: ")
