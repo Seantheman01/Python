@@ -42,7 +42,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             PAD2 = input(f"""You bought the {SPULLEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
-                            
+ 
             elif PAD1 == 'swamp':
                 print("""You and your team get stuck in the mud. You all start sinking slowely.
 GAME OVER""")
