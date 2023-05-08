@@ -10,24 +10,27 @@ def multiplication(number1, number2):
 def division(number1, number2):
     return number1 / number2
 
+def tweede_getal():
+    return "Voer het tweede getal in: "
+
 choice = input("Wat wilt je doen? A) getallen optellen, B) getallen aftrekken, C) getallen vermenigvuldigen, D) getallen delen, E) getal ophogen, F) getal verlagen, G) getal verdubbelen of H) getal halveren? ")
 n1 = int(input("Voer het eerste getal in: "))
 
 while True:
     if choice == 'a':
-        n2 = int(input("Voer het tweede getal in: "))
+        n2 = int(input(tweede_getal()))
         uitkomst = addition(n1, n2)
         print(f"{n1} + {n2} = {uitkomst}")
     elif choice == 'b':
-        n2 = int(input("Voer het tweede getal in: "))
+        n2 = int(input(tweede_getal()))
         uitkomst = substraction(n1, n2)
         print(f"{n1} - {n2} = {uitkomst}")
     elif choice == 'c':
-        n2 = int(input("Voer het tweede getal in: "))
+        n2 = int(input(tweede_getal()))
         uitkomst = multiplication(n1, n2)
         print(f"{n1} x {n2} = {uitkomst}")
     elif choice == 'd':
-        n2 = int(input("Voer het tweede getal in: "))
+        n2 = int(input(tweede_getal()))
         uitkomst = division(n1, n2)
         print(f"{n1} : {n2} = {uitkomst}")
 
