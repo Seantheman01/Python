@@ -36,7 +36,9 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                if TROL == 'yell':
                                    MINEN = input(storyline[8])
                                    # Hier komt nog iets tussen.
-
+            elif PAD1 == 'swamp':
+                print("""You and your team get stuck in the mud. You all start sinking slowely.
+GAME OVER""")
         elif BEGIN == 'village':
             print(plaatjes[4])
             PAD1 = input(storyline[11])
