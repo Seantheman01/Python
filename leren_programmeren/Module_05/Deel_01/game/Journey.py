@@ -43,6 +43,6 @@ How will you cross the river: swim or use a log (just type 'log')? """)
             if PAD1 == 'cheaper':
                 MUUR = input(storyline[14])
                 
-            
+
 else:
     BEGIN = input("Choose yes or no: ")
