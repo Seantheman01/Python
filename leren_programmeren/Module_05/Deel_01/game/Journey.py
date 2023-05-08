@@ -48,5 +48,6 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                         BANDIETEN = input(storyline[16])
                         if BANDIETEN == 'fight':
                             BEWAKERS = input(storyline[18])
+                            # Hier komt nog iets tussen.
 else:
     BEGIN = input("Choose yes or no: ")
