@@ -32,19 +32,11 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             print(plaatjes[3])
                             GROT = input(storyline[6])
                             if GROT == 'blocked':
-                                print("""
-You enter a dark and narrow cave system.
-You all get lost and after walking around witch no succes.
-Suddenly you all fall in a pit.
-GAME OVER""")
-                            if GROT == 'mine':
+                                print(game_over[2])
+                            elif GROT == 'mine':
                                 TROL = input(storyline[7])
                                 if TROL == 'fight':
-                                    print("""
-The troll is way bigger and stronger than you.
-He hits you and you fly backwards.
-You don't surive the attack.
-GAME OVER""")
+                                    print(game_over[3])
                                 elif TROL == 'yell':
                                    MINEN = input(storyline[8])
                                    # Hier komt nog iets tussen.

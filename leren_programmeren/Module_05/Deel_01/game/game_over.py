@@ -44,5 +44,15 @@ game_over = [
     \_  \          /,L]     /
       '-_`-,       ` `   ./`
          `-(_            )
-             ^^\..___,.--`"""
+             ^^\..___,.--`""",
+
+"""You enter a dark and narrow cave system.
+You all get lost and after walking around witch no succes.
+Suddenly you all fall in a pit.
+GAME OVER""",
+
+"""The troll is way bigger and stronger than you.
+He hits you and you fly backwards.
+You don't surive the attack.
+GAME OVER"""
 ]
