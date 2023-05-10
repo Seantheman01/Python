@@ -38,9 +38,9 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                    # Hier komt nog iets tussen.
                                    
                 elif ELF_DORP == 'steal':
-                        SPULLEN = input(storyline[4])
-                        if SPULLEN == 'continue':
-                            PAD2 = input(storyline[5])
+                    SPULLEN = input(storyline[4])
+                    if SPULLEN == 'continue':
+                        PAD2 = input(storyline[5])
  
             elif PAD1 == 'swamp':
                 print("""You and your team get stuck in the mud. You all start sinking slowely.
