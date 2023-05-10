@@ -61,5 +61,9 @@ GAME OVER""")
                         if BANDIETEN == 'fight':
                             BEWAKERS = input(storyline[18])
                             # Hier komt nog iets tussen.
+                            
+        OPNIEUW = input("Do you want to play again? ")
+        if OPNIEUW == 'no':
+            break
 else:
     BEGIN = input("Choose yes or no: ")
