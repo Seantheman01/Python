@@ -54,5 +54,9 @@ GAME OVER""",
 """The troll is way bigger and stronger than you.
 He hits you and you fly backwards.
 You don't surive the attack.
+GAME OVER""",
+
+"""The bandits tie everyone up and steal your supplies.
+Evryone is left behind, laying in the grass.
 GAME OVER"""
 ]

@@ -60,8 +60,13 @@ GAME OVER""")
                     VERDER = input(storyline[15])
                     if VERDER == 'tell':
                         BANDIETEN = input(storyline[16])
-                        if BANDIETEN == 'fight':
+                        if BANDIETEN == 'surrender':
+                            print(game_over[4])
+                        elif BANDIETEN == 'fight':
                             BEWAKERS = input(storyline[18])
+                        elif BANDIETEN == 'run':
+                            BEWAKERS = input(storyline[17])
+                            
                             # Hier komt nog iets tussen.
                             
         OPNIEUW = input("Do you want to play again? ")

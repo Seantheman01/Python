@@ -40,7 +40,7 @@ You continue the path, and come across a wall full off gold ores.
 Will you mine it? (type 'yes' or 'no') """,
 
 """You start running from the troll. But he takes bigger steps so it catches up.
-It punches 6 men, and they don't survive.
+It punches 5 men, and they don't survive.
 You continue the path, and come across a wall full off gold ores.
 Will you mine it? (type 'yes' or 'no') """,
 
