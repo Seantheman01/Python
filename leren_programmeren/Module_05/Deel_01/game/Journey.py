@@ -97,11 +97,11 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                         elif bandieten == 'run':
                             bewakers = input(storyline[17])
                             # Hier komt nog iets tussen.
-                            
+
             elif pad4 == 'steal':
                 muur = input(storyline[12])
                 soldaten_over = soldaten_eraf(soldaten, 5)
-                
+   
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
             break
