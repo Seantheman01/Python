@@ -2,11 +2,11 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 from game_over import game_over
 
-def geld_eraf(geld, betaalt):
-    return geld - betaalt
+def geld_eraf(n1, n2):
+    return n1 - n2
 
-def soldaten_eraf(soldaten, dood):
-    return soldaten - dood
+def soldaten_eraf(n3, n4):
+    return n3 - n4
 
 soldaten = 20
 geld = 100
@@ -29,6 +29,12 @@ elif intro == 'yes':
                 elf_dorp = input(storyline[2])
                 if elf_dorp == 'buy':
                     spullen = input(storyline[3])
+                elif elf_dorp == 'steal':
+                    spullen = input(storyline[4])
+                    verloren = 5
+                    soldaten_over = soldaten_eraf(soldaten, verloren)
+                    if spullen == 'continue':
+                        pad2 = input(storyline[5])
                     if spullen == 'sword' or spullen == 'pickaxe':
                         betaalt = 50
                         geld_over = geld_eraf(geld, betaalt)
@@ -65,11 +71,6 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                 elif elf_dorp == 'continue' and minen == 'no':
                                     pad3 = input(storyline[20])
                                    # Hier komt nog iets tussen.
-
-                elif elf_dorp == 'steal':
-                    spullen = input(storyline[4])
-                    if spullen == 'continue':
-                        pad2 = input(storyline[5])
  
             elif pad1 == 'swamp':
                 print(game_over[2])
@@ -99,5 +100,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
             break
+        print(geld_over)
+        print(soldaten_over)
 else:
     begin = input("Choose yes or no: ")
