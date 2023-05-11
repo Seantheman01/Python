@@ -69,18 +69,19 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                 muur = input(storyline[14])
             elif pad1 == 'steal':
                 muur = input(storyline[12])
-                if muur == 'ask':
-                    verder = input(storyline[15])
-                    if verder == 'tell':
-                        bandieten = input(storyline[16])
-                        if bandieten == 'surrender':
-                            print(game_over[5])
-                            print(game_over[1])
-                        elif bandieten == 'fight':
-                            bewakers = input(storyline[18])
-                        elif bandieten == 'run':
-                            bewakers = input(storyline[17])
-                            # Hier komt nog iets tussen.
+                
+            if muur == 'ask':
+                verder = input(storyline[15])
+                if verder == 'tell':
+                    bandieten = input(storyline[16])
+                    if bandieten == 'surrender':
+                        print(game_over[5])
+                        print(game_over[1])
+                    elif bandieten == 'fight':
+                        bewakers = input(storyline[18])
+                    elif bandieten == 'run':
+                        bewakers = input(storyline[17])
+                        # Hier komt nog iets tussen.
                 
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
