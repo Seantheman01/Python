@@ -66,7 +66,6 @@ GAME OVER""")
                             BEWAKERS = input(storyline[18])
                         elif BANDIETEN == 'run':
                             BEWAKERS = input(storyline[17])
-                            
                             # Hier komt nog iets tussen.
                             
         OPNIEUW = input("Do you want to play again? ")
