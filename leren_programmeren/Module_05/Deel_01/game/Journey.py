@@ -51,6 +51,19 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                    minen = input(storyline[8])
                                 elif trol == 'run':
                                     minen = input(storyline[9])
+
+                                if elf_dorp == 'pickaxe' and minen == 'yes':
+                                    pad3 = input(storyline[19])
+                                elif elf_dorp == 'pickaxe' and minen == 'no':
+                                    pad3 = input(storyline[20])
+                                elif elf_dorp == 'sword' and minen == 'yes':
+                                    pad3 = input(storyline[21])
+                                elif elf_dorp == 'sword' and minen == 'no':
+                                    pad3 = input(storyline[20])
+                                elif elf_dorp == 'continue' and minen == 'yes':
+                                    pad3 = input(storyline[19])
+                                elif elf_dorp == 'continue' and minen == 'no':
+                                    pad3 = input(storyline[20])
                                    # Hier komt nog iets tussen.
                                    
                 elif elf_dorp == 'steal':
