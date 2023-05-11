@@ -52,6 +52,8 @@ How will you cross the river: swim or use a log (just type 'log')? """)
  
             elif PAD1 == 'swamp':
                 print(game_over[2])
+                print(game_over[0])
+                
         elif BEGIN == 'village':
             print(plaatjes[4])
             PAD1 = input(storyline[11])
