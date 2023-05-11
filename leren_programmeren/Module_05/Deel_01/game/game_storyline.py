@@ -61,7 +61,7 @@ You talk to the enemy king about peace, and that is the story of how the war end
 You enter the village, but all the villagers went silent.
 You tell them you are no threat, but they still don't really trust you.
 You enter the shop and they sell a very shiny, beautiful and expensive battle axe.
-But the axe is a bit too expensive.
+But the axe is a bit too expensive. It costs 200 coins! And you don't have 200 coins.
 But stealing is wrong! Although you really need it...
 What will you do? Ask for a cheaper price (just type 'cheaper') or steal: """,
 
