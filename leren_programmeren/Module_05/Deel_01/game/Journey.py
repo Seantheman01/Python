@@ -31,7 +31,7 @@ elif INTRO == 'yes':
                     SPULLEN = input(storyline[3])
                     if SPULLEN == 'sword' or SPULLEN == 'pickaxe':
                         betaalt = 50
-                        print(geld_eraf(geld, betaalt))
+                        geld_over = geld_eraf(geld, betaalt)
                         print(plaatjes[2])
                         PAD2 = input(f"""You bought the {SPULLEN} from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
