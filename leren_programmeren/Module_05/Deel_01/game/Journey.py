@@ -30,48 +30,47 @@ elif intro == 'yes':
                 if elf_dorp == 'buy':
                     spullen = input(storyline[3])
                     if spullen == 'sword' or spullen == 'pickaxe':
-                        print(f"""You bought the {spullen} from the shop, but you realize the rest of your team can't afford anything.""")
                         geld_over = geld_eraf(geld, 50)
+                        print(plaatjes[2])
+                        pad2 = input(f"""You bought the {elf_dorp} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+Eventually you reach the lake, but you need to get across.
+How will you cross the river: swim or use a log (just type 'log')? """)
+                # elif elf_dorp == 'steal':
+                #     soldaten_over = soldaten_eraf(soldaten, 5)
+                #     spullen = input(storyline[4])
+                #     if spullen == 'continue':
+                #         pad2 = input(storyline[5])  
 
-                elif elf_dorp == 'steal':
-                    soldaten_over = soldaten_eraf(soldaten, 5)
-                    spullen = input(storyline[4])
-                    if spullen == 'continue':
-                        print(storyline[5])  
-
-                    print(plaatjes[2])
-                    pad2 = ("""Eventually you reach the lake, but you need to get across.
-How will you cross the river: swim or use a log (just type 'log')? """)  
-                    if pad2 == 'log':
-                        print(plaatjes[3])
-                        grot = input(storyline[6])
-                        if grot == 'blocked':
-                            print(game_over[3])
-                            print(game_over[0])
-                        elif grot == 'mine':
-                            trol = input(storyline[7])
-                            if trol == 'fight':
-                                print(game_over[4])
+                        if pad2 == 'log':
+                            print(plaatjes[3])
+                            grot = input(storyline[6])
+                            if grot == 'blocked':
+                                print(game_over[3])
                                 print(game_over[0])
-                            elif trol == 'yell':
-                                minen = input(storyline[8])
-                            elif trol == 'run':
-                                minen = input(storyline[9])
-                                soldaten_over = soldaten_eraf(soldaten, 6)
+                            elif grot == 'mine':
+                                trol = input(storyline[7])
+                                if trol == 'fight':
+                                    print(game_over[4])
+                                    print(game_over[0])
+                                elif trol == 'yell':
+                                    minen = input(storyline[8])
+                                elif trol == 'run':
+                                    minen = input(storyline[9])
+                                    soldaten_over = soldaten_eraf(soldaten, 6)
 
-                            if elf_dorp == 'pickaxe' and minen == 'yes':
-                                pad3 = input(storyline[19])
-                            elif elf_dorp == 'pickaxe' and minen == 'no':
-                                pad3 = input(storyline[20])
-                            elif elf_dorp == 'sword' and minen == 'yes':
-                                pad3 = input(storyline[21])
-                            elif elf_dorp == 'sword' and minen == 'no':
-                                pad3 = input(storyline[20])
-                            elif elf_dorp == 'continue' and minen == 'yes':
-                                pad3 = input(storyline[19])
-                            elif elf_dorp == 'continue' and minen == 'no':
-                                pad3 = input(storyline[20])
-                                # Hier komt nog iets tussen.
+                                if elf_dorp == 'pickaxe' and minen == 'yes':
+                                    pad3 = input(storyline[19])
+                                elif elf_dorp == 'pickaxe' and minen == 'no':
+                                    pad3 = input(storyline[20])
+                                elif elf_dorp == 'sword' and minen == 'yes':
+                                    pad3 = input(storyline[21])
+                                elif elf_dorp == 'sword' and minen == 'no':
+                                    pad3 = input(storyline[20])
+                                elif elf_dorp == 'continue' and minen == 'yes':
+                                    pad3 = input(storyline[19])
+                                elif elf_dorp == 'continue' and minen == 'no':
+                                    pad3 = input(storyline[20])
+                                    # Hier komt nog iets tussen.
 
             elif pad1 == 'swamp':
                 print(game_over[2])
