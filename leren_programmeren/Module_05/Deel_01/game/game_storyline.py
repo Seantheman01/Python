@@ -103,26 +103,13 @@ You walk up a hill and see the enemy castle in the distance. Waving the letter a
 But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """,
 
-"""You mined the gold. You put it in your bags and continue the journey.
-You and your team walk to the exit of the cave, and end up on the other side.
-You see the enemy castle in the distance. Waving the letter around, you walk towards it.
-But at the gate stand some guards, who are not happy.
-How can you be let in? Choose ask or threaten: """,
+"""You mined the gold. You put it in your bags and continue the journey.""",
 
-"""You mined the gold. You put it in your bags and continue the journey.
-You and your team walk to the exit of the cave, and end up on the other side.
-You see the enemy castle in the distance. Waving the letter around, you walk towards it.
-But at the gate stand some guards, who are not happy.
-How can you be let in? Choose ask or threaten: """,
+"""You didn't mine the gold.""",
 
-"""You didn't mine the gold.
-You and your team walk to the exit of the cave, and end up on the other side.
-You see the enemy castle in the distance. Waving the letter around, you walk towards it.
-But at the gate stand some guards, who are not happy.
-How can you be let in? Choose ask or threaten: """,
+"""You have nothing to mine the gold with.""",
 
-"""You have nothing to mine the gold with.
-You and your team walk to the exit of the cave, and end up on the other side.
+"""You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
 How can you be let in? Choose ask or threaten: """
