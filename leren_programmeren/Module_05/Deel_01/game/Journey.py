@@ -32,11 +32,13 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             print(plaatjes[3])
                             GROT = input(storyline[6])
                             if GROT == 'blocked':
-                                print(game_over[2])
+                                print(game_over[3])
+                                print(game_over[0])
                             elif GROT == 'mine':
                                 TROL = input(storyline[7])
                                 if TROL == 'fight':
-                                    print(game_over[3])
+                                    print(game_over[4])
+                                    print(game_over[0])
                                 elif TROL == 'yell':
                                    MINEN = input(storyline[8])
                                 elif TROL == 'run':
@@ -49,8 +51,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                         PAD2 = input(storyline[5])
  
             elif PAD1 == 'swamp':
-                print("""You and your team get stuck in the mud. You all start sinking slowely.
-GAME OVER""")
+                print(game_over[2])
         elif BEGIN == 'village':
             print(plaatjes[4])
             PAD1 = input(storyline[11])
@@ -61,7 +62,8 @@ GAME OVER""")
                     if VERDER == 'tell':
                         BANDIETEN = input(storyline[16])
                         if BANDIETEN == 'surrender':
-                            print(game_over[4])
+                            print(game_over[5])
+                            print(game_over[1])
                         elif BANDIETEN == 'fight':
                             BEWAKERS = input(storyline[18])
                         elif BANDIETEN == 'run':
