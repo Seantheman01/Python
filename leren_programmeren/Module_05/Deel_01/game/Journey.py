@@ -30,19 +30,19 @@ elif intro == 'yes':
                 if elf_dorp == 'buy':
                     spullen = input(storyline[3])
                     if spullen == 'sword' or spullen == 'pickaxe':
+                        print(f"""You bought the {spullen} from the shop, but you realize the rest of your team can't afford anything.""")
                         geld_over = geld_eraf(geld, 50)
 
                 elif elf_dorp == 'steal':
-                    spullen = input(storyline[4])
                     soldaten_over = soldaten_eraf(soldaten, 5)
+                    spullen = input(storyline[4])
                     if spullen == 'continue':
-                        redden = input(storyline[5])  
+                        print(storyline[5])  
 
                     print(plaatjes[2])
-                    pad2 = input(f"""You bought the {spullen} from the shop, but you realize the rest of your team can't afford anything.
-Eventually you reach the lake, but you need to get across.
+                    pad2 = ("""Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)  
-                    if pad2 == 'log' or redden == 'log':
+                    if pad2 == 'log':
                         print(plaatjes[3])
                         grot = input(storyline[6])
                         if grot == 'blocked':
