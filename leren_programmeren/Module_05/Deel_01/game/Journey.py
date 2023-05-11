@@ -65,7 +65,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                 elif elf_dorp == 'continue' and minen == 'no':
                                     pad3 = input(storyline[20])
                                    # Hier komt nog iets tussen.
-                                   
+
                 elif elf_dorp == 'steal':
                     spullen = input(storyline[4])
                     if spullen == 'continue':
@@ -74,7 +74,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
             elif pad1 == 'swamp':
                 print(game_over[2])
                 print(game_over[0])
-                
+
         elif begin == 'village':
             print(plaatjes[4])
             pad1 = input(storyline[11])
@@ -82,7 +82,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                 muur = input(storyline[14])
             elif pad1 == 'steal':
                 muur = input(storyline[12])
-                
+
             if muur == 'ask':
                 verder = input(storyline[15])
                 if verder == 'tell':
@@ -95,7 +95,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                     elif bandieten == 'run':
                         bewakers = input(storyline[17])
                         # Hier komt nog iets tussen.
-                
+
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
             break
