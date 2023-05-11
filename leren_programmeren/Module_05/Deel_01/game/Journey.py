@@ -62,6 +62,7 @@ GAME OVER""")
                         BANDIETEN = input(storyline[16])
                         if BANDIETEN == 'surrender':
                             print(game_over[4])
+                            print(game_over[0])
                         elif BANDIETEN == 'fight':
                             BEWAKERS = input(storyline[18])
                         elif BANDIETEN == 'run':
