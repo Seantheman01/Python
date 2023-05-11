@@ -2,6 +2,9 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 from game_over import game_over
 
+def geld_eraf(geld, betaalt):
+    return geld - betaalt
+
 soldaten = 20
 geld = 100
 naam = input("""---------- Welcome to Journey! ----------
@@ -24,6 +27,8 @@ elif INTRO == 'yes':
                 if ELF_DORP == 'buy':
                     SPULLEN = input(storyline[3])
                     if SPULLEN == 'sword' or SPULLEN == 'pickaxe':
+                        betaalt = 30
+                        uitkomst = geld_eraf(geld, betaalt) 
                         print(plaatjes[2])
                         PAD2 = input(f"""You bought the {SPULLEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
