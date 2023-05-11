@@ -67,6 +67,8 @@ How will you cross the river: swim or use a log (just type 'log')? """)
             PAD1 = input(storyline[11])
             if PAD1 == 'cheaper':
                 MUUR = input(storyline[14])
+            elif PAD1 == 'steal':
+                MUUR = input(storyline[12])
                 if MUUR == 'ask':
                     VERDER = input(storyline[15])
                     if VERDER == 'tell':
@@ -79,8 +81,6 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                         elif BANDIETEN == 'run':
                             BEWAKERS = input(storyline[17])
                             # Hier komt nog iets tussen.
-            elif PAD1 == 'steal':
-                MUUR = input(storyline[12])
                 
         OPNIEUW = input("Do you want to play again? ")
         if OPNIEUW == 'no':
