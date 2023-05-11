@@ -12,78 +12,78 @@ soldaten = 20
 geld = 100
 naam = input("""---------- Welcome to Journey! ----------
 Before we start, what is your name? """)
-INTRO = input(f"""Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. 
+intro = input(f"""Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. 
 One of the first paths is harder than the other.
 That is all you need to know for now. 
 Good luck on your journey! Are you ready? (just type 'yes or no') """)
-if INTRO == 'no':
+if intro == 'no':
     print("Then why are you playing this?")
-elif INTRO == 'yes':
+elif intro == 'yes':
     while True:
         print(plaatjes[0])
-        BEGIN = input(storyline[0]) 
-        if BEGIN == 'forest':
+        begin = input(storyline[0]) 
+        if begin == 'forest':
             print(plaatjes[1])
-            PAD1 = input(storyline[1])
-            if PAD1 == 'elf village':
-                ELF_DORP = input(storyline[2])
-                if ELF_DORP == 'buy':
-                    SPULLEN = input(storyline[3])
-                    if SPULLEN == 'sword' or SPULLEN == 'pickaxe':
+            pad1 = input(storyline[1])
+            if pad1 == 'elf village':
+                elf_dorp = input(storyline[2])
+                if elf_dorp == 'buy':
+                    spullen = input(storyline[3])
+                    if spullen == 'sword' or spullen == 'pickaxe':
                         betaalt = 50
                         geld_over = geld_eraf(geld, betaalt)
                         print(plaatjes[2])
-                        PAD2 = input(f"""You bought the {SPULLEN} from the shop, but you realize the rest of your team can't afford anything.
+                        pad2 = input(f"""You bought the {spullen} from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
-                        if PAD2 == 'log':
+                        if pad2 == 'log':
                             print(plaatjes[3])
-                            GROT = input(storyline[6])
-                            if GROT == 'blocked':
+                            grot = input(storyline[6])
+                            if grot == 'blocked':
                                 print(game_over[3])
                                 print(game_over[0])
-                            elif GROT == 'mine':
-                                TROL = input(storyline[7])
-                                if TROL == 'fight':
+                            elif grot == 'mine':
+                                trol = input(storyline[7])
+                                if trol == 'fight':
                                     print(game_over[4])
                                     print(game_over[0])
-                                elif TROL == 'yell':
-                                   MINEN = input(storyline[8])
-                                elif TROL == 'run':
-                                    MINEN = input(storyline[9])
+                                elif trol == 'yell':
+                                   minen = input(storyline[8])
+                                elif trol == 'run':
+                                    minen = input(storyline[9])
                                    # Hier komt nog iets tussen.
                                    
-                elif ELF_DORP == 'steal':
-                    SPULLEN = input(storyline[4])
-                    if SPULLEN == 'continue':
-                        PAD2 = input(storyline[5])
+                elif elf_dorp == 'steal':
+                    spullen = input(storyline[4])
+                    if spullen == 'continue':
+                        pad2 = input(storyline[5])
  
-            elif PAD1 == 'swamp':
+            elif pad1 == 'swamp':
                 print(game_over[2])
                 print(game_over[0])
                 
-        elif BEGIN == 'village':
+        elif begin == 'village':
             print(plaatjes[4])
-            PAD1 = input(storyline[11])
-            if PAD1 == 'cheaper':
-                MUUR = input(storyline[14])
-            elif PAD1 == 'steal':
-                MUUR = input(storyline[12])
-                if MUUR == 'ask':
-                    VERDER = input(storyline[15])
-                    if VERDER == 'tell':
-                        BANDIETEN = input(storyline[16])
-                        if BANDIETEN == 'surrender':
+            pad1 = input(storyline[11])
+            if pad1 == 'cheaper':
+                muur = input(storyline[14])
+            elif pad1 == 'steal':
+                muur = input(storyline[12])
+                if muur == 'ask':
+                    verder = input(storyline[15])
+                    if verder == 'tell':
+                        bandieten = input(storyline[16])
+                        if bandieten == 'surrender':
                             print(game_over[5])
                             print(game_over[1])
-                        elif BANDIETEN == 'fight':
-                            BEWAKERS = input(storyline[18])
-                        elif BANDIETEN == 'run':
-                            BEWAKERS = input(storyline[17])
+                        elif bandieten == 'fight':
+                            bewakers = input(storyline[18])
+                        elif bandieten == 'run':
+                            bewakers = input(storyline[17])
                             # Hier komt nog iets tussen.
                 
-        OPNIEUW = input("Do you want to play again? ")
-        if OPNIEUW == 'no':
+        opnieuw = input("Do you want to play again? ")
+        if opnieuw == 'no':
             break
 else:
-    BEGIN = input("Choose yes or no: ")
+    begin = input("Choose yes or no: ")
