@@ -30,10 +30,10 @@ elif INTRO == 'yes':
                 if ELF_DORP == 'buy':
                     SPULLEN = input(storyline[3])
                     if SPULLEN == 'sword' or SPULLEN == 'pickaxe':
-                        betaalt = 30
+                        betaalt = 50
                         print(geld_eraf(geld, betaalt))
                         print(plaatjes[2])
-                        PAD2 = input(f"""You bought the {SPULLEN} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
+                        PAD2 = input(f"""You bought the {SPULLEN} from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
                         if PAD2 == 'log':

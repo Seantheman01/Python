@@ -10,7 +10,8 @@ One leads to the swamp, and the other one to the elf village.
 Choose wich path to go: swamp or elf village? """,
 
 """You enter the elf village, and the elfs greet you politely.    
-They offer you some supplies for a very low price. But you don't really wanna pay.
+They offer you some supplies for a very low price, only 50 coins for a weapon or tool.
+But you don't really want to pay.
 But stealing is wrong! Although you really need it...
 What will you do: buy or steal? """,
 
