@@ -71,7 +71,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                 elif elf_dorp == 'continue' and minen == 'no':
                                     pad3 = input(storyline[20])
                                    # Hier komt nog iets tussen.
- 
+
             elif pad1 == 'swamp':
                 print(game_over[2])
                 print(game_over[0])
