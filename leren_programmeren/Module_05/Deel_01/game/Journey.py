@@ -35,11 +35,6 @@ elif intro == 'yes':
                         pad2 = input(f"""You bought the {elf_dorp} for 30 coins from the shop, but you realize the rest of your team can't afford anything.
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
-                # elif elf_dorp == 'steal':
-                #     soldaten_over = soldaten_eraf(soldaten, 5)
-                #     spullen = input(storyline[4])
-                #     if spullen == 'continue':
-                #         pad2 = input(storyline[5])  
 
                         if pad2 == 'log':
                             print(plaatjes[3])
@@ -71,6 +66,12 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                 elif elf_dorp == 'continue' and minen == 'no':
                                     pad3 = input(storyline[20])
                                     # Hier komt nog iets tussen.
+                                    
+                # elif elf_dorp == 'steal':
+                #     soldaten_over = soldaten_eraf(soldaten, 5)
+                #     spullen = input(storyline[4])
+                #     if spullen == 'continue':
+                #         pad2 = input(storyline[5])  
 
             elif pad1 == 'swamp':
                 print(game_over[2])
@@ -78,29 +79,29 @@ How will you cross the river: swim or use a log (just type 'log')? """)
 
         elif begin == 'village':
             print(plaatjes[4])
-            pad1 = input(storyline[11])
-            if pad1 == 'cheaper':
+            pad4 = input(storyline[11])
+            if pad4 == 'cheaper':
                 muur = input(storyline[14])
-            elif pad1 == 'steal':
+                if muur == 'threaten':
+                    print(game_over[5])
+                    print(game_over[1])
+                elif muur == 'ask':
+                    verder = input(storyline[15])
+                    if verder == 'tell':
+                        bandieten = input(storyline[16])
+                        if bandieten == 'surrender':
+                            print(game_over[6])
+                            print(game_over[1])
+                        elif bandieten == 'fight':
+                            bewakers = input(storyline[18])
+                        elif bandieten == 'run':
+                            bewakers = input(storyline[17])
+                            # Hier komt nog iets tussen.
+                            
+            elif pad4 == 'steal':
                 muur = input(storyline[12])
                 soldaten_over = soldaten_eraf(soldaten, 5)
-
-            if muur == 'threaten':
-                print(game_over[5])
-                print(game_over[1])
-            elif muur == 'ask':
-                verder = input(storyline[15])
-                if verder == 'tell':
-                    bandieten = input(storyline[16])
-                    if bandieten == 'surrender':
-                        print(game_over[6])
-                        print(game_over[1])
-                    elif bandieten == 'fight':
-                        bewakers = input(storyline[18])
-                    elif bandieten == 'run':
-                        bewakers = input(storyline[17])
-                        # Hier komt nog iets tussen.
-
+                
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
             break
