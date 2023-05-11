@@ -5,6 +5,9 @@ from game_over import game_over
 def geld_eraf(geld, betaalt):
     return geld - betaalt
 
+def soldaten_eraf(soldaten, dood):
+    return soldaten - dood
+
 soldaten = 20
 geld = 100
 naam = input("""---------- Welcome to Journey! ----------
