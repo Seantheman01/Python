@@ -57,6 +57,8 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                    minen = input(storyline[8])
                                 elif trol == 'run':
                                     minen = input(storyline[9])
+                                    verloren = 6
+                                    soldaten_over = soldaten_eraf(soldaten, verloren)
 
                                 if elf_dorp == 'pickaxe' and minen == 'yes':
                                     pad3 = input(storyline[19])
