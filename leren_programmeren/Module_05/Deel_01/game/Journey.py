@@ -65,7 +65,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                     pad3 = input(storyline[19])
                                 elif elf_dorp == 'continue' and minen == 'no':
                                     pad3 = input(storyline[20])
-              
+
                 elif elf_dorp == 'steal':
                     soldaten_over = soldaten_eraf(soldaten, 5)
                     spullen = input(storyline[4])
