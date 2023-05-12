@@ -82,3 +82,5 @@
 # een argument is wat geprint word
 
 # een parameter staat in de function
+
+# lists zijn complexe datatypes
