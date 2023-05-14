@@ -45,16 +45,14 @@ It punches 6 men, and they don't survive.
 You continue the path, and come across a wall full off gold ores.
 Will you mine it? (type 'yes' or 'no') """,
 
-"""One of the guards sais: 'Listen up! If you have something to give us, we will let you in.'
-You ask them what they want, and they say that they want money. You give them the money and supplies.
+"""You give them the money and supplies.
 You give all the money and supplies you have and they let you in.
 You talk to the enemy king about peace, and that is the story of how the war ended.
 >>> THE END <<<""",
 
-"""You don't have enough money. The guards won't let you in.
-Then one of the guards said: 'you could give up some of your men. If you give 3 men, we will let you in.
-You hesitate, but you have to give up 3 men. After a while, 3 men step forward.
-The guards open the gate and let you go in.
+"""You don't have enough money to pay the guards. But they give you a second option:
+You can give up 3 of your soldiers instead of paying.
+3 of your men step forward and are taken to the dungeons. The guards let you in.
 You talk to the enemy king about peace, and that is the story of how the war ended.
 >>> THE END <<<""",
 
@@ -123,15 +121,4 @@ How can you be let in? Choose ask or threaten:""",
 
 """One of the guards sais: 'Listen up! If you give us some stuff, we will let you in.'
 You ask them what they want, and they say that they want money and supplies.""",
-
-"""You give them the money and supplies.
-You give all the money and supplies you have and they let you in.
-You talk to the enemy king about peace, and that is the story of how the war ended.
->>> THE END <<<""",
-
-"""You don't have enough money to pay the guards. But they give you a second option:
-You can give up 3 of your soldiers instead of paying.
-3 of your men step forward and are taken to the dungeons. The guards let you in.
-You talk to the enemy king about peace, and that is the story of how the war ended.
->>> THE END <<<"""
 ]
