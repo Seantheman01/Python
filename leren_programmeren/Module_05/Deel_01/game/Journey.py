@@ -121,6 +121,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             print(game_over[6])
                             print(game_over[1])
                         elif bandieten == 'fight':
+                            print(plaatjes[5])
                             bewakers = input(storyline[18])
                             if bewakers == 'threaten':
                                 print(game_over[6])
