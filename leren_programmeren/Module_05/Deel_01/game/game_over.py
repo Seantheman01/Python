@@ -66,5 +66,10 @@ GAME OVER""",
 
 """The bandits tie everyone up and steal your supplies.
 Evryone is left behind, laying in the grass.
+GAME OVER""",
+
+"""You threaten the guards, and that makes them really mad.
+The guards on top of the towers aim their crossbows and shoot.
+They hit you right in the neck.
 GAME OVER"""
 ]

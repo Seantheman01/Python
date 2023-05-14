@@ -119,5 +119,13 @@ How can you be let in? Choose ask or threaten: """,
 You and your team walk to the exit of the cave, and end up on the other side.
 You see the enemy castle in the distance. Waving the letter around, you walk towards it.
 But at the gate stand some guards, who are not happy.
-How can you be let in? Choose ask or threaten:"""
+How can you be let in? Choose ask or threaten:""",
+
+"""One of the guards sais: 'Listen up! If you give us some stuff, we will let you in.'
+You ask them what they want, and they say that they want money and supplies.""",
+
+"""You give them the money and supplies.
+You give all the money and supplies you have and they let you in.
+You talk to the enemy king about peace, and that is the story of how the war ended.
+>>> THE END <<<"""
 ]
