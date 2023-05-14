@@ -127,5 +127,11 @@ You ask them what they want, and they say that they want money and supplies.""",
 """You give them the money and supplies.
 You give all the money and supplies you have and they let you in.
 You talk to the enemy king about peace, and that is the story of how the war ended.
+>>> THE END <<<""",
+
+"""You don't have enough money to pay the guards. But they give you a second option:
+You can give up 3 of your soldiers instead of paying.
+3 of your men step forward and are taken to the dungeons. The guards let you in.
+You talk to the enemy king about peace, and that is the story of how the war ended.
 >>> THE END <<<"""
 ]

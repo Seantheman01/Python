@@ -130,6 +130,8 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                 print(storyline[22])
                                 if geld >= 100:
                                     print(storyline[23])
+                                else:
+                                    print(storyline[24])
                         elif bandieten == 'run':
                             bewakers = input(storyline[17])
 
