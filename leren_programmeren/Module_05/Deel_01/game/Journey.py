@@ -36,16 +36,18 @@ elif intro == 'yes':
 Eventually you reach the lake, but you need to get across.
 How will you cross the river: swim or use a log (just type 'log')? """)
 
-                        if pad2 == 'log':
+                        if pad2 == 'swim':
+                            print(game_over[3])
+                        elif pad2 == 'log':
                             print(plaatjes[3])
                             grot = input(storyline[6])
                             if grot == 'blocked':
-                                print(game_over[3])
+                                print(game_over[4])
                                 print(game_over[0])
                             elif grot == 'mine':
                                 trol = input(storyline[7])
                                 if trol == 'fight':
-                                    print(game_over[4])
+                                    print(game_over[5])
                                     print(game_over[0])
                                 elif trol == 'yell':
                                     minen = input(storyline[8])
@@ -75,12 +77,12 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             print(plaatjes[3])
                             grot = input(storyline[6])
                             if grot == 'blocked':
-                                print(game_over[3])
+                                print(game_over[4])
                                 print(game_over[0])
                             elif grot == 'mine':
                                 trol = input(storyline[7])
                                 if trol == 'fight':
-                                    print(game_over[4])
+                                    print(game_over[5])
                                     print(game_over[0])
                                 elif trol == 'yell':
                                     minen = input(storyline[8])
@@ -111,20 +113,20 @@ How will you cross the river: swim or use a log (just type 'log')? """)
             if pad4 == 'cheaper':
                 muur = input(storyline[14])
                 if muur == 'threaten':
-                    print(game_over[5])
+                    print(game_over[6])
                     print(game_over[1])
                 elif muur == 'ask':
                     verder = input(storyline[15])
                     if verder == 'tell':
                         bandieten = input(storyline[16])
                         if bandieten == 'surrender':
-                            print(game_over[6])
+                            print(game_over[7])
                             print(game_over[1])
                         elif bandieten == 'fight':
                             print(plaatjes[5])
                             bewakers = input(storyline[18])
                             if bewakers == 'threaten':
-                                print(game_over[6])
+                                print(game_over[7])
                                 print(game_over[1])
                             elif bewakers == 'ask':
                                 print(storyline[22])
@@ -139,17 +141,17 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                 muur = input(storyline[12])
                 soldaten_over = soldaten_eraf(soldaten, 5)
                 if muur == 'threaten':
-                    print(game_over[5])
+                    print(game_over[6])
                     print(game_over[1])
                 elif muur == 'ask':
                     verder = input(storyline[15])
                     if verder == 'threaten':
-                        print(game_over[5])
+                        print(game_over[6])
                         print(game_over[1])
                     elif verder == 'tell':
                         bandieten = input(storyline[16])
                         if bandieten == 'surrender':
-                            print(game_over[6])
+                            print(game_over[7])
                             print(game_over[1])
                         elif bandieten == 'fight':
                             bewakers = input(storyline[18])

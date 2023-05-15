@@ -49,6 +49,11 @@ game_over = [
 """You and your team get stuck in the mud. You all start sinking slowely.
 GAME OVER""",
 
+"""You all take of your armor and try to swim across.
+But the water is flowing too fast, and you all get taken by the water.
+Swimming also started to get really difficult, so you all drown.
+GAME OVER""",
+
 """You enter a dark and narrow cave system.
 You all get lost and after walking around witch no succes.
 Suddenly you all fall in a pit.
