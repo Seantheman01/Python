@@ -91,17 +91,17 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                     soldaten_over = soldaten_eraf(soldaten, 6)
 
                                 if elf_dorp == 'pickaxe' and minen == 'yes':
-                                    pad3 = input(storyline[19])
-                                elif elf_dorp == 'pickaxe' and minen == 'no':
-                                    pad3 = input(storyline[20])
-                                elif elf_dorp == 'sword' and minen == 'yes':
                                     pad3 = input(storyline[21])
+                                elif elf_dorp == 'pickaxe' and minen == 'no':
+                                    pad3 = input(storyline[22])
+                                elif elf_dorp == 'sword' and minen == 'yes':
+                                    pad3 = input(storyline[23])
                                 elif elf_dorp == 'sword' and minen == 'no':
-                                    pad3 = input(storyline[20])
+                                    pad3 = input(storyline[22])
                                 elif elf_dorp == 'continue' and minen == 'yes':
-                                    pad3 = input(storyline[19])
+                                    pad3 = input(storyline[21])
                                 elif elf_dorp == 'continue' and minen == 'no':
-                                    pad3 = input(storyline[20])
+                                    pad3 = input(storyline[22])
 
             elif pad1 == 'swamp':
                 print(game_over[2])
@@ -136,6 +136,7 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                                     print(storyline[11])
                         elif bandieten == 'run':
                             bewakers = input(storyline[17])
+                            soldaten_over = soldaten_eraf(soldaten, 5)
 
             elif pad4 == 'steal':
                 muur = input(storyline[12])
@@ -154,9 +155,10 @@ How will you cross the river: swim or use a log (just type 'log')? """)
                             print(game_over[7])
                             print(game_over[1])
                         elif bandieten == 'fight':
-                            bewakers = input(storyline[18])
+                            bewakers = input(storyline[20])
                         elif bandieten == 'run':
-                            bewakers = input(storyline[17])
+                            bewakers = input(storyline[19])
+                            soldaten_over = soldaten_eraf(soldaten, 5)
 
         opnieuw = input("Do you want to play again? ")
         if opnieuw == 'no':
