@@ -1,6 +1,6 @@
 # commentaar start met een hekje
 
-# variabele = stukje datatypes
+# variabele = stukje datatypes waar je geheugen in kan opslaan
 # string = woord of zin
 
 # woord = 'hallo'  # mag ook met dubbele komma's
@@ -84,3 +84,5 @@
 # een parameter staat in de function
 
 # lists zijn complexe datatypes
+
+# een dictionairy bestaat uit een key en value
