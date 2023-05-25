@@ -86,3 +86,5 @@
 # lists zijn complexe datatypes
 
 # een dictionairy bestaat uit een key en value
+
+# een while loop combineer je met een conditie
