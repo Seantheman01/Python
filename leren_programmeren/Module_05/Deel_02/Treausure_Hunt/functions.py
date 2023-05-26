@@ -17,7 +17,7 @@ def platinum2gold(amount:int) -> float:
     return amount * 25
 
 def getPersonCashInGold(personCash:dict) -> float:
-    pass
+    
 
 ##################### M04.D02.O4 #####################
 
