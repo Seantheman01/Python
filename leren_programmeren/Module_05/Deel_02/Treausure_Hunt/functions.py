@@ -17,7 +17,12 @@ def platinum2gold(amount:int) -> float:
     return amount * 25
 
 def getPersonCashInGold(personCash:dict) -> float:
-    
+    copper_cash = personCash['copper'] / 50
+    silver_cash = personCash['silver'] / 5
+    gold_cash = personCash['gold']
+    platinum_cash = personCash['platinum'] * 25
+    total = copper_cash + silver_cash + gold_cash + platinum_cash
+    return total
 
 ##################### M04.D02.O4 #####################
 
