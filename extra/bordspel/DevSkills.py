@@ -6,4 +6,4 @@ dobbelsteen = random.choice(DOBBELSTENEN)
 print(dobbelsteen)
 
 if dobbelsteen == DOBBELSTENEN[1]:
-    print("Nee")
+    print("")
