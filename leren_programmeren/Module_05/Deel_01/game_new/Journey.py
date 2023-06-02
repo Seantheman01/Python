@@ -1,3 +1,5 @@
+from game_plaatjes import plaatjes
+
 naam = input("""---------- Welcome to Journey! ----------
 Before we start, what is your name? """)
 intro = input(f"""Hello {naam}! Here are some tips: You have 20 soldiers with you, and you start off with 100 coins. 
