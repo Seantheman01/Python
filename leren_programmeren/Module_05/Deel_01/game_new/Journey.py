@@ -11,4 +11,7 @@ Good luck on your journey! Are you ready? (just type 'yes or no') """)
 if intro == 'no':
     print("Then why are you playing this?")
 elif intro == 'yes':
-    
+    print(plaatjes[0])
+    begin = input(storyline[0]) 
+    if begin == 'forest':
+        
