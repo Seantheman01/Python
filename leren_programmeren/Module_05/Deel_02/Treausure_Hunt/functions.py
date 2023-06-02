@@ -31,6 +31,7 @@ def getJourneyFoodCostsInGold(people:int, horses:int) -> float:
     eten_mens = COST_FOOD_HUMAN_COPPER_PER_DAY * JOURNEY_IN_DAYS * people
     eten_paard = COST_FOOD_HORSE_COPPER_PER_DAY * JOURNEY_IN_DAYS * horses
     return (eten_mens + eten_paard) / 50
+    pass
 
 ##################### M04.D02.O5 #####################
 
