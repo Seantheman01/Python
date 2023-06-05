@@ -5,5 +5,7 @@ Starting your journey, you have to choose 2 paths first: forest (harder route) o
 Choose wich path to go: """,
 
 """You and your team chose the forest. You enter the elf village and enter the shop.
-There are 2 items for sale: a sword (40 coins) or a shield (30 coins). Do you want to buy the item(s)?"""
+There are 2 items for sale: a sword (40 coins) or a shield (30 coins). Do you want to buy the item(s)? """,
+
+"Wich item do you want to buy? "
 ]

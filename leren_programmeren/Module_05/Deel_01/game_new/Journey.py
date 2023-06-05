@@ -15,4 +15,8 @@ elif intro == 'yes':
     begin = input(storyline[0]) 
     if begin == 'forest':
         print(plaatjes[1])
-        pad1 = input(storyline[1])
+        elf_winkel = input(storyline[1])
+        if elf_winkel == 'yes':
+            spullen = input(storyline[2])
+            if spullen == 'sword' or spullen == 'shield':
+                pad1 = input(f"""You bought the {elf_winkel} from the shop!""")
