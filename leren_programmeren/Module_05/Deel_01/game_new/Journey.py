@@ -23,4 +23,3 @@ elif intro == 'yes':
 Then the shopkeepers asks if you can do him a favor. 
 He sais that there are some dangerous creatures in the swamp that attack the elfs.
 You agreed to help them and you head to the swamp.""")
-                
