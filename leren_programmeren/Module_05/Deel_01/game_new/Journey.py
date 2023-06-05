@@ -14,4 +14,4 @@ elif intro == 'yes':
     print(plaatjes[0])
     begin = input(storyline[0]) 
     if begin == 'forest':
-        
+        pass
