@@ -17,6 +17,10 @@ elif intro == 'yes':
         print(plaatjes[1])
         elf_winkel = input(storyline[1])
         if elf_winkel == 'yes':
-            spullen = input(storyline[2])
+            spullen = input("Wich item do you want to buy? ")
             if spullen == 'sword' or spullen == 'shield':
-                pad1 = input(f"""You bought the {elf_winkel} from the shop.""")
+                pad1 = input(f"""You bought the {elf_winkel} from the shop. 
+Then the shopkeepers asks if you can do him a favor. 
+He sais that there are some dangerous creatures in the swamp that attack the elfs.
+You agreed to help them and you head to the swamp.""")
+                
