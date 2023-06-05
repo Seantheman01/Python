@@ -19,4 +19,4 @@ elif intro == 'yes':
         if elf_winkel == 'yes':
             spullen = input(storyline[2])
             if spullen == 'sword' or spullen == 'shield':
-                pad1 = input(f"""You bought the {elf_winkel} from the shop!""")
+                pad1 = input(f"""You bought the {elf_winkel} from the shop.""")
