@@ -3,7 +3,7 @@ from game_plaatjes import plaatjes
 from game_over import game_over
 
 vijanden = [{
-    'name' : 'goblin',
+    'creature' : 'goblin',
     'health' : 50,
     'attack' : 'club hit'
 }]  
