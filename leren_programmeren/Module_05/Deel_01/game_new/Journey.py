@@ -2,6 +2,12 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 from game_over import game_over
 
+vijanden = [{
+    'type' : 'goblin',
+    'health' : 50,
+    'attack' : 'club hit'
+}]  
+
 naam = input("""---------- Welcome to Journey! ----------
 Before we start, what is your name? """)
 intro = input(f"""Hello {naam}! Here are some tips: you start off with 100 coins,
