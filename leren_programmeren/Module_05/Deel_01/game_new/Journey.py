@@ -24,14 +24,14 @@ elif intro == 'yes':
         print(plaatjes[1])
         elf_winkel = input(storyline[1])
         if elf_winkel == 'sword':
+            print(plaatjes[2])
             print("""You bought the sword from the shop. 
 You're attack increased!""")
-            print(plaatjes[2])
         elif elf_winkel == 'shield':
+            print(plaatjes[3])
             print("""You bought the shield from the shop. 
 You're defense increased!""")
-            print(plaatjes[3])
         elif elf_winkel == 'none':
             print("You bought nothing from the shop.")
 
-print(storyline[2]) 
+print(storyline[2])
