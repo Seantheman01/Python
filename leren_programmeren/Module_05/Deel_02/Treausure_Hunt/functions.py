@@ -3,6 +3,7 @@ from termcolor import colored
 from data import JOURNEY_IN_DAYS
 from data import COST_FOOD_HUMAN_COPPER_PER_DAY
 from data import COST_FOOD_HORSE_COPPER_PER_DAY
+from data import friends
 
 ##################### M04.D02.O2 #####################
 
