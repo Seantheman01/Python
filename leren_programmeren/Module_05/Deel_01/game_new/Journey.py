@@ -5,7 +5,8 @@ from game_over import game_over
 vijanden = [{
     'creature' : 'goblin',
     'health' : 50,
-    'attack' : 'club hit'
+    'attack' : 'club hit',
+    'appearence' : plaatjes[8]
 }]  
 
 naam = input("""---------- Welcome to Journey! ----------
