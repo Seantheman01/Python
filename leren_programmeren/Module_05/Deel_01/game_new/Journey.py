@@ -27,11 +27,11 @@ elif intro == 'yes':
         if elf_winkel == 'sword':
             print(plaatjes[2])
             print("""You bought the sword from the shop. 
-You're attack increased!""")
+Your attack increased!""")
         elif elf_winkel == 'shield':
             print(plaatjes[3])
             print("""You bought the shield from the shop. 
-You're defense increased!""")
+Your defense increased!""")
         elif elf_winkel == 'none':
             print("You bought nothing from the shop.")
 
