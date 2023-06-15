@@ -6,6 +6,7 @@ vijanden = [{
     'creature' : 'goblin',
     'health' : 50,
     'attack' : 'club hit',
+    'damage' : 20,
     'appearence' : plaatjes[8]
 }]  
 
