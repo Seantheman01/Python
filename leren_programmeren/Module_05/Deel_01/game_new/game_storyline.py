@@ -10,5 +10,5 @@ There are 2 items for sale: a sword (40 coins) or a shield (30 coins). Wich item
 """
 Then the shopkeepers asks if you can do him a favor. 
 He sais that there are some dangerous creatures in the swamp that attack the elfs.
-You agreed to help them and you head to the swamp."""
+You agreed to help him and you head to the swamp."""
 ]
