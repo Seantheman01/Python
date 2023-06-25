@@ -3,7 +3,6 @@ from termcolor import colored
 from data import JOURNEY_IN_DAYS
 from data import COST_FOOD_HUMAN_COPPER_PER_DAY
 from data import COST_FOOD_HORSE_COPPER_PER_DAY
-from data import friends
 
 ##################### M04.D02.O2 #####################
 
@@ -36,7 +35,12 @@ def getJourneyFoodCostsInGold(people:int, horses:int) -> float:
 ##################### M04.D02.O5 #####################
 
 def getFromListByKeyIs(list:list, key:str, value:any) -> list:
+    # lijst = []
     
+    # for x in list:
+    #     if x[key] == value:
+    #         lijst.append(x)
+    #         return(lijst)
         
 def getAdventuringPeople(people:list) -> list:
     pass
