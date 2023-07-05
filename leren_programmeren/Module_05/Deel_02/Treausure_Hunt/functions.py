@@ -48,7 +48,9 @@ def getShareWithFriends(friends:list) -> int:
     return getFromListByKeyIs(friends, "shareWith", True)
 
 def getAdventuringFriends(friends:list) -> list:
-   
+    lijst = []
+    for x in friends:
+        
 
 ##################### M04.D02.O6 #####################
 
