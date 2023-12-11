@@ -7,7 +7,7 @@ thingsList = [
         'tasty' : True,
         'round' : True
     },{
-        'name' : 'Fries',
+        'name' : 'Fries'
         'tasty' : True,
         'round' : False
     },{
