@@ -2,7 +2,7 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 from game_over import game_over
 
-jouw_aanvallen = """What will you do? :
+jouw_aanvallen = """What will you do?:
 Attack
 Block
 Heal
