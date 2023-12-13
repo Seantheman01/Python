@@ -8,6 +8,13 @@ Block
 Heal
 """
 
+speler = {
+    'health' : 100,
+    'attack' : 'Sword slash',
+    'damage' : 25,
+    'potions' : 1
+}
+
 vijanden = {
     'creature' : 'goblin',
     'health' : 50,
@@ -45,6 +52,10 @@ Your defense increased!""")
         print(plaatjes[8])
 
         input(jouw_aanvallen)
+        if jouw_aanvallen == "attack" or "Attack":
+            print("You attacked the " + vijanden['creature'])
+            vijanden['health']-=25
+            print(vijanden['health'])
 
 elif intro == 'no':
     print("Then why are you playing this?")
