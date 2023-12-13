@@ -4,21 +4,22 @@ from game_over import game_over
 
 jouw_aanvallen = """What will you do?:
 Attack
-Block
+Defend
 Heal
 """
 
-speler = {
-    'health' : 100,
-    'attack' : 'Sword slash',
-    'damage' : 25,
-    'potions' : 1
-}
+# speler = {
+#     'health' : 100,
+#     'attack' : 'sword slash',
+#     'damage' : 25,
+#     'potions' : 1,
+#     'money' : 100
+# }
 
 vijanden = {
     'creature' : 'goblin',
     'health' : 50,
-    'attack' : 'stab',
+    'attack' : 'knife stab',
     'damage' : 20
 }
 
@@ -52,9 +53,12 @@ Your defense increased!""")
         print(plaatjes[8])
 
         input(jouw_aanvallen)
-        if jouw_aanvallen == "attack" or "Attack":
+        if jouw_aanvallen == "attack" or "Attack" or 'ATTACK':
             print("You attacked the " + vijanden['creature'])
-            vijanden['health']-=25
+            vijanden['health'].update({"health": 25})
+            print(vijanden['health'])
+        elif jouw_aanvallen == "defend" or "Defend" or "DEFEND":
+            print("You defended yourself")
             print(vijanden['health'])
 
 elif intro == 'no':
