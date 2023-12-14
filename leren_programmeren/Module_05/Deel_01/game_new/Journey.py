@@ -53,13 +53,14 @@ if intro == 'yes':
 
             else: 
                 print("The goblin used " + vijanden['attack'])
-                speler['health']-=100
+                speler['health']-=vijanden['damage']
             if speler['health'] == 0:
                 print(game_over[1])
                 print("You died...")
                 exit()
 
         elf_dorp = input(storyline[2])
+        speler.update({'health': 100})
         if elf_dorp == 'sword':
             speler['money']-=40
             speler['damage']+=10
