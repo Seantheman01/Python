@@ -20,7 +20,7 @@ speler = {
 vijanden = {
     'creature' : 'goblin',
     'health' : 50,
-    'attack' : 'knife stab',
+    'attack' : 'dagger stab',
     'damage' : 20
 }
 
@@ -53,14 +53,28 @@ Your defense increased!""")
         print("Suddenly, a " + vijanden["creature"] + " appears")
         print(plaatjes[8])
 
-        input(jouw_aanvallen)
-        if jouw_aanvallen == "attack" or "Attack" or 'ATTACK':
-            print("You attacked the " + vijanden['creature'])
-            vijanden['health']-=25
-            print(vijanden['health'])
-        elif jouw_aanvallen == "defend" or "Defend" or "DEFEND":
-            print("You defended yourself")
-            print(vijanden['health'])
+        while True:
+            input(jouw_aanvallen)
+            if jouw_aanvallen == "attack" or "Attack" or 'ATTACK':
+                print("You used " + speler['attack'] + " on the " + vijanden['creature'])
+                vijanden['health']-=speler['damage']
+            
+            if vijanden['health'] == 0:
+                print("You killed the goblin!")
+                break
+
+            else: 
+                print("The goblin used " + vijanden['attack'])
+                speler['health']-=vijanden['damage']
+
+            if speler['health'] == 0:
+                print("You died!")
+                print(game_over[1])
+                break
+
+        # elif jouw_aanvallen == "defend" or "Defend" or "DEFEND":
+        #     print("You defended yourself")
+        #     print(vijanden['health'])
 
 elif intro == 'no':
     print("Then why are you playing this?")
