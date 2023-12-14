@@ -12,7 +12,7 @@ speler = {
     'health' : 100,
     'attack' : 'sword slash',
     'damage' : 25,
-    'defense' : 0,
+    'defense' : 1,
     'potions' : 1,
     'money' : 100
 }
@@ -36,7 +36,7 @@ if intro == 'yes':
     begin = input(storyline[0]) 
     if begin == 'forest':
         print(plaatjes[1])
-        bos = input(storyline[1])
+        print(storyline[1])
 
         print("A " + vijanden["creature"] + " appears")
         print(plaatjes[8])
@@ -56,21 +56,23 @@ if intro == 'yes':
                 speler['health']-=vijanden['damage']
 
             if speler['health'] == 0:
-                print("You died!")
                 print(game_over[1])
+                print("You died!")
                 break
 
-            elf_dorp = input(storyline[2])
-            if elf_dorp == 'sword':
-                print(plaatjes[2])
-                print("""You bought the sword from the shop. 
-                Your attack increased!""")
-            elif elf_dorp == 'shield':
-                print(plaatjes[3])
-                print("""You bought the shield from the shop. 
-                Your defense increased!""")
-            elif elf_dorp == 'none':
-                print("You bought nothing from the shop.")
+        elf_dorp = input(storyline[2])
+        if elf_dorp == 'sword':
+            speler['money']-=40
+            speler['damage']+=10
+            print(plaatjes[2])
+            print("You bought the sword from the shop. Your attack increased!")
+        elif elf_dorp == 'shield':
+            speler['money']-=30
+            speler['defense']+=1
+            print(plaatjes[3])
+            print("You bought the shield from the shop. Your defense increased!")
+        # elif elf_dorp == 'none':
+        #     print("You bought nothing from the shop.")
 
 elif intro == 'no':
     print("Then why are you playing this?")
