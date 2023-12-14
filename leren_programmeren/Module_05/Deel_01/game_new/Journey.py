@@ -55,7 +55,7 @@ Your defense increased!""")
         input(jouw_aanvallen)
         if jouw_aanvallen == "attack" or "Attack" or 'ATTACK':
             print("You attacked the " + vijanden['creature'])
-            vijanden['health'].update({"health": 25})
+            vijanden['health']-=25
             print(vijanden['health'])
         elif jouw_aanvallen == "defend" or "Defend" or "DEFEND":
             print("You defended yourself")
