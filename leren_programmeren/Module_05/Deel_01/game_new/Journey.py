@@ -36,21 +36,9 @@ if intro == 'yes':
     begin = input(storyline[0]) 
     if begin == 'forest':
         print(plaatjes[1])
-        elf_winkel = input(storyline[1])
-        if elf_winkel == 'sword':
-            print(plaatjes[2])
-            print("""You bought the sword from the shop. 
-Your attack increased!""")
-        elif elf_winkel == 'shield':
-            print(plaatjes[3])
-            print("""You bought the shield from the shop. 
-Your defense increased!""")
-        elif elf_winkel == 'none':
-            print("You bought nothing from the shop.")
+        bos = input(storyline[1])
 
-        print(storyline[2])
-
-        print("Suddenly, a " + vijanden["creature"] + " appears")
+        print("A " + vijanden["creature"] + " appears")
         print(plaatjes[8])
 
         while True:
@@ -72,9 +60,17 @@ Your defense increased!""")
                 print(game_over[1])
                 break
 
-        # elif jouw_aanvallen == "defend" or "Defend" or "DEFEND":
-        #     print("You defended yourself")
-        #     print(vijanden['health'])
+            elf_dorp = input(storyline[2])
+            if elf_dorp == 'sword':
+                print(plaatjes[2])
+                print("""You bought the sword from the shop. 
+                Your attack increased!""")
+            elif elf_dorp == 'shield':
+                print(plaatjes[3])
+                print("""You bought the shield from the shop. 
+                Your defense increased!""")
+            elif elf_dorp == 'none':
+                print("You bought nothing from the shop.")
 
 elif intro == 'no':
     print("Then why are you playing this?")
