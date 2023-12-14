@@ -1,10 +1,12 @@
 storyline = [
 """You are the best trained commander of an army. You have been at war with your enemy for many years, and your king is done with it. 
-He sends you and a few other knights out with a letter to end the war.
+He sends you on your own, because they can't risk loosing more people. 
+You are send out with a letter to end the war.
 Starting your journey, you have to choose 2 paths first: forest (harder route) or village (easier route).
 Choose wich path to go: """,
 
-"""You and your team chose the forest. You follow the path, until all of a sudden...""",
+"""
+You chose the forest. You follow the path, until all of a sudden...""",
 
 """
 You kept following the path until you came across the elf village.

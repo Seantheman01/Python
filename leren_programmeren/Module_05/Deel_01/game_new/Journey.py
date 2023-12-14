@@ -38,7 +38,7 @@ if intro == 'yes':
         print(plaatjes[1])
         print(storyline[1])
 
-        print("A " + vijanden["creature"] + " appears")
+        print("A " + vijanden["creature"] + " appears!")
         print(plaatjes[8])
 
         while True:
@@ -53,12 +53,11 @@ if intro == 'yes':
 
             else: 
                 print("The goblin used " + vijanden['attack'])
-                speler['health']-=vijanden['damage']
-
+                speler['health']-=100
             if speler['health'] == 0:
                 print(game_over[1])
-                print("You died!")
-                break
+                print("You died...")
+                exit()
 
         elf_dorp = input(storyline[2])
         if elf_dorp == 'sword':
