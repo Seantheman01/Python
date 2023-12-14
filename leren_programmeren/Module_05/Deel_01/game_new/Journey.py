@@ -8,13 +8,14 @@ Defend
 Heal
 """
 
-# speler = {
-#     'health' : 100,
-#     'attack' : 'sword slash',
-#     'damage' : 25,
-#     'potions' : 1,
-#     'money' : 100
-# }
+speler = {
+    'health' : 100,
+    'attack' : 'sword slash',
+    'damage' : 25,
+    'defense' : 0,
+    'potions' : 1,
+    'money' : 100
+}
 
 vijanden = {
     'creature' : 'goblin',
