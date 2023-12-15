@@ -17,17 +17,19 @@ speler = {
     'money' : 100
 }
 
-vijand1 = {
-    'creature' : 'goblin',
+vijanden = {
+    '1' : {
+    'name' : 'goblin',
     'health' : 50,
     'attack' : 'dagger stab',
     'damage' : 20
-}
-vijand2 = {
-    'creature' : 'bounty hunter',
+    },
+    '2' : {
+    'name' : 'bounty hunter',
     'health' : 75,
     'attack' : 'sword slash',
     'damage' : 25
+    }
 }
 
 naam = input("""---------- Welcome to Journey! ----------
@@ -42,22 +44,22 @@ if intro == 'yes':
     if begin == 'forest':
         print(plaatjes[1])
         print(storyline[1])
-        print("A " + vijand1["creature"] + " appears!")
+        print("A " + vijanden["1"]['name'] + " appears!")
         print(plaatjes[8])
 
         while True:
             input(jouw_aanvallen)
-            if jouw_aanvallen == "attack" or "Attack" or 'ATTACK':
-                print("You used " + speler['attack'] + " on the " + vijand1['creature'])
-                vijand1['health']-=speler['damage']
+            if jouw_aanvallen == "attack" or "Attack" or "ATTACK":
+                print("You used " + speler['attack'] + " on the " + vijanden['1']['name'])
+                vijanden['1']['health']-=speler['damage']
             
-            if vijand1['health'] == 0:
-                print("You killed the goblin!")
+            if vijanden['1']['health'] == 0:
+                print("You killed the " + vijanden['1']['name'] + " !")
                 break
 
             else: 
-                print("The goblin used " + vijand1['attack'])
-                speler['health']-=vijand1['damage']
+                print("The " + vijanden['1']['name'] + " used " + vijanden['1']['attack'])
+                speler['health']-=vijanden['1']['damage']
             if speler['health'] == 0:
                 print(game_over[1])
                 print("You died...")
@@ -65,22 +67,17 @@ if intro == 'yes':
 
         elf_dorp = input(storyline[2])
         speler.update({'health':100})
-        if elf_dorp == 'sword':
+        if elf_dorp == 'sword' or "Sword" or "SWORD":
             speler['money']-=40
             speler['damage']+=10
             speler.update({'attack':'sword slash'})
             print(plaatjes[2])
             print("You bought the sword from the shop. Your damage increased!")
-        elif elf_dorp == 'shield':
+        elif elf_dorp == 'shield' or elf_dorp == "Shield" or elf_dorp=="SHIELD":
             speler['money']-=30
             speler['defense']+=1
             print(plaatjes[3])
             print("You bought the shield from the shop. Your defense increased!")
-        
-        print(plaatjes[4])
-        print(storyline[3])
-        print("A " + vijand1["creature"] + " shows up!")
-        print(plaatjes[0])
 
 elif intro == 'no':
     print("Then why are you playing this?")
