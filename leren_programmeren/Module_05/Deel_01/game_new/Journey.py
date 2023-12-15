@@ -10,7 +10,7 @@ Heal
 
 speler = {
     'health' : 100,
-    'attack' : 'sword slash',
+    'attack' : 'mace hit',
     'damage' : 25,
     'defense' : 1,
     'potions' : 1,
@@ -60,12 +60,13 @@ if intro == 'yes':
                 exit()
 
         elf_dorp = input(storyline[2])
-        speler.update({'health': 100})
+        speler.update({'health':100})
         if elf_dorp == 'sword':
             speler['money']-=40
             speler['damage']+=10
+            speler.update({'attack':'sword swipe'})
             print(plaatjes[2])
-            print("You bought the sword from the shop. Your attack increased!")
+            print("You bought the sword from the shop. Your damage increased!")
         elif elf_dorp == 'shield':
             speler['money']-=30
             speler['defense']+=1
