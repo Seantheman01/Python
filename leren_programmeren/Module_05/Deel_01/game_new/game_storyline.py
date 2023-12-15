@@ -12,4 +12,9 @@ You chose the forest. You follow the path, until all of a sudden...""",
 You kept following the path until you came across the elf village.
 You head into the elf village and enter the shop.
 There are 2 items for sale: a sword (40 coins) or a shield (30 coins). Wich item do you want to buy? (type none if you don't want to buy anything.) """
+
+"""
+You continue your journey and you come across a river with a waterfall.
+But it seems that the bridge is broken.
+But then, out of nowhere..."""
 ]
