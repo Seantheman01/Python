@@ -2,6 +2,26 @@ from game_storyline import storyline
 from game_plaatjes import plaatjes
 from game_over import game_over
 
+def gevecht():
+    while True:
+        input(jouw_aanvallen)
+        if jouw_aanvallen == "attack" or "Attack" or "ATTACK":
+            print("You used " + speler['attack'] + " on the " + vijanden['1']['name'])
+            vijanden['1']['health']-=speler['damage']
+        
+        if vijanden['1']['health'] == 0:
+            print("You killed the " + vijanden['1']['name'] + " !")
+            break
+
+        else: 
+            print("The " + vijanden['1']['name'] + " used " + vijanden['1']['attack'])
+            speler['health']-=vijanden['1']['damage']
+
+        if speler['health'] == 0:
+            print(game_over[1])
+            print("You died...")
+            exit()    
+
 jouw_aanvallen = """What will you do?:
 Attack
 Defend
@@ -47,23 +67,7 @@ if intro == 'yes':
         print("A " + vijanden["1"]['name'] + " appears!")
         print(plaatjes[8])
 
-        while True:
-            input(jouw_aanvallen)
-            if jouw_aanvallen == "attack" or "Attack" or "ATTACK":
-                print("You used " + speler['attack'] + " on the " + vijanden['1']['name'])
-                vijanden['1']['health']-=speler['damage']
-            
-            if vijanden['1']['health'] == 0:
-                print("You killed the " + vijanden['1']['name'] + " !")
-                break
-
-            else: 
-                print("The " + vijanden['1']['name'] + " used " + vijanden['1']['attack'])
-                speler['health']-=vijanden['1']['damage']
-            if speler['health'] == 0:
-                print(game_over[1])
-                print("You died...")
-                exit()
+        gevecht()
 
         elf_dorp = input(storyline[2])
         speler.update({'health':100})
