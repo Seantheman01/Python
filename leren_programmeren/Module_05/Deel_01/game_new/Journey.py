@@ -52,7 +52,6 @@ def gevecht():
             print("You died...")
             exit()
 
-
 naam = input("""---------- Welcome to Journey! ----------
 Before we start, what is your name? """)
 intro = input(f"""
@@ -67,7 +66,6 @@ if intro == 'yes':
         print(storyline[1])
         print("A " + vijanden["1"]['name'] + " appears!")
         print(plaatjes[8])
-
         gevecht()
 
         elf_dorp = input(storyline[2])
