@@ -64,7 +64,7 @@ if intro == 'yes':
     if begin == 'forest':
         print(plaatjes[1])
         print(storyline[1])
-        print("A " + vijanden["1"]['name'] + " appears!")
+        print("A " + vijanden['1']['name'] + " appears!")
         print(plaatjes[8])
         gevecht()
 
