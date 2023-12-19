@@ -58,7 +58,7 @@ intro = input(f"""
 Hello {naam}! Here are some tips: you start off with 100 coins and 1 healing potion.
 One of the first paths is harder than the other.
 That is all you need to know for now. 
-Good luck on your journey! Are you ready? (just type 'yes or no') """)
+Good luck on your journey! Are you ready? (just type 'yes' or 'no') """)
 if intro == 'yes':
     begin = input(storyline[0]) 
     if begin == 'forest':
