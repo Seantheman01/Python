@@ -82,5 +82,9 @@ if intro == 'yes':
             print(plaatjes[3])
             print("You bought the shield from the shop. Your defense increased!")
 
+        print(plaatjes[4])
+        print(storyline[3])
+        print("A " + vijanden['2']['name'] + " shows up!")
+
 elif intro == 'no':
     print("Then why are you playing this?")
