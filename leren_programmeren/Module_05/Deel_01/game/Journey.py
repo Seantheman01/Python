@@ -18,18 +18,10 @@ speler = {
 }
 
 vijanden = {
-    '1' : {
     'name' : 'goblin',
     'health' : 50,
     'attack' : 'dagger stab',
     'damage' : 20
-    },
-    '2' : {
-    'name' : 'bounty hunter',
-    'health' : 75,
-    'attack' : 'sword slash',
-    'damage' : 25
-    }
 }
 
 def gevecht():
@@ -60,12 +52,13 @@ One of the first paths is harder than the other.
 That is all you need to know for now. 
 Good luck on your journey! Are you ready? (just type 'yes' or 'no') """)
 if intro == 'yes':
-    begin = input(storyline[0]) 
+    print(plaatjes[9])
+    begin = input(storyline[0])
     if begin == 'forest':
         print(plaatjes[1])
         print(storyline[1])
-        print("A " + vijanden['1']['name'] + " appears!")
         print(plaatjes[8])
+        print("A " + vijanden['name'] + " appears!")
         gevecht()
 
         elf_dorp = input(storyline[2])
@@ -81,10 +74,6 @@ if intro == 'yes':
             speler['defense']+=1
             print(plaatjes[3])
             print("You bought the shield from the shop. Your defense increased!")
-
-        print(plaatjes[4])
-        print(storyline[3])
-        print("A " + vijanden['2']['name'] + " shows up!")
 
 elif intro == 'no':
     print("Then why are you playing this?")
