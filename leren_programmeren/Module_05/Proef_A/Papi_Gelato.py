@@ -13,6 +13,6 @@ def aantal_bolletjes():
         else:
             print("Sorry dat snap ik niet...")
             
-        # return aantal_bolletjes
+        return aantal_bolletjes
 
 aantal = aantal_bolletjes()
