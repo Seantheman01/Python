@@ -15,4 +15,16 @@ def aantal_bolletjes():
             
         return aantal_bolletjes
 
-aantal_bolletjes()
+aantal = aantal_bolletjes()
+
+def hoorn_of_bak():
+    while True:
+        soort = input(f"Wilt u deze {aantal} bolletje(s) in een hoorntje of een bakje? ")
+        if soort == "hoorntje" or soort == "bakje":
+            break
+        else:
+            print("Sorry dat snap ik niet...")
+            
+    return hoorn_of_bak
+
+soort = hoorn_of_bak()
