@@ -15,4 +15,4 @@ def aantal_bolletjes():
             
         return aantal_bolletjes
 
-aantal = aantal_bolletjes()
+aantal_bolletjes()
