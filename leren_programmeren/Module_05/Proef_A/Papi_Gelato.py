@@ -32,15 +32,17 @@ soort = hoorn_of_bak()
 
 
 def meer_bestellen():
-    print(f"Hier is uw {soort} met {aantal} bolletje(s).")
-    opnieuw = input("Wilt u nog meer bestellen?")
-    if opnieuw == "ja":
-        pass
-    elif opnieuw == "nee":
-        print("Bedankt en tot ziens!")
-    else:
-        print("Sorry dat snap ik niet...")
-        
-    return meer_bestellen
+    while True:
+        print(f"Hier is uw {soort} met {aantal} bolletje(s).")
+        opnieuw = input("Wilt u nog meer bestellen?")
+        if opnieuw == "ja":
+            break
+        elif opnieuw == "nee":
+            print("Bedankt en tot ziens!")
+            break
+        else:
+            print("Sorry dat snap ik niet...")
+            
+        return meer_bestellen
 
 opnieuw = meer_bestellen()
