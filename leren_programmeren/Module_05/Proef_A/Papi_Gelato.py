@@ -13,7 +13,6 @@ def aantal_bolletjes():
         else:
             print("Sorry dat snap ik niet...")
 
-
 def hoorn_of_bak(aantal):
     while True:
         soort = input(f"Wilt u deze {aantal} bolletje(s) in een hoorntje of een bakje? ")
@@ -21,7 +20,6 @@ def hoorn_of_bak(aantal):
             return soort
         else:
             print("Sorry dat snap ik niet...")
-
 
 def meer_bestellen(soort, aantal):
     while True:
@@ -34,7 +32,6 @@ def meer_bestellen(soort, aantal):
             break
         else:
             print("Sorry dat snap ik niet...")
-
 
 while True:
     aantal = aantal_bolletjes()
