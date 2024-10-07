@@ -6,10 +6,10 @@ def aantal_bolletjes():
         if aantal >= 1 and aantal <= 3:
             return aantal
         elif aantal >= 4 and aantal <= 8:
-            print(f'Dan krijgt u van mij een bakje met {aantal} bolletjes.')
+            print(f"Dan krijgt u van mij een bakje met {aantal} bolletjes.")
             return aantal
         elif aantal > 8:
-            print('Sorry, zulke grote bakken hebben we niet.')
+            print("Sorry, zulke grote bakken hebben we niet.")
         else:
             print("Sorry dat snap ik niet...")
 
