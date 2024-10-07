@@ -11,7 +11,7 @@ def aantal_bolletjes():
         elif aantal > 8:
             print("Sorry, zulke grote bakken hebben we niet.")
         else:
-            print("Sorry dat snap ik niet...")
+            print("Sorry, dat snap ik niet...")
 
 def hoorn_of_bak(aantal):
     while True:
@@ -19,7 +19,7 @@ def hoorn_of_bak(aantal):
         if soort == "hoorntje" or soort == "bakje":
             return soort
         else:
-            print("Sorry dat snap ik niet...")
+            print("Sorry, dat snap ik niet...")
 
 def meer_bestellen(soort, aantal):
     while True:
@@ -31,7 +31,7 @@ def meer_bestellen(soort, aantal):
             print("Bedankt en tot ziens!")
             break
         else:
-            print("Sorry dat snap ik niet...")
+            print("Sorry, dat snap ik niet...")
 
 while True:
     aantal = aantal_bolletjes()
